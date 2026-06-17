@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   ArrowLeft, BookOpen, CalendarDays, Check, ChevronRight, Flame, GraduationCap,
-  Home, Layers3, RotateCcw, Search, Sparkles, Target, X,
+  Home, Layers3, RotateCcw, Search, Settings, Sparkles, Target, X,
 } from 'lucide-react'
 import rawTexts from './data/texts.json'
 import { syncProgress } from './lib/supabase'
@@ -17,12 +17,15 @@ type TextData = {
 }
 type Progress = Record<string, { known: string[]; attempts: number }>
 type Session = { scope: string; queue: string[]; retry: string[]; known: string[]; current: number }
+type CompletedSession = { known: number; learning: number; remaining: number; total: number; scope: string; retry: string[]; knownKeys: string[] }
+type CardDirection = 'question' | 'answer'
 type View = { page: 'home' | 'sheets' | 'plan' | 'text' | 'learn'; textId?: string }
 
 const texts = rawTexts as TextData[]
-const STORAGE_KEY = 'cap-progress-v1'
-const SESSION_KEY = 'cap-session-v1'
+const STORAGE_KEY = 'cap-progress-v2'
+const SESSION_KEY = 'cap-session-v2'
 const DEVICE_KEY = 'cap-device-v1'
+const SETTINGS_KEY = 'cap-card-settings-v1'
 
 function load<T>(key: string, fallback: T): T {
   try { return JSON.parse(localStorage.getItem(key) || '') as T } catch { return fallback }
@@ -32,6 +35,8 @@ function App() {
   const [view, setView] = useState<View>({ page: 'home' })
   const [progress, setProgress] = useState<Progress>(() => load(STORAGE_KEY, {}))
   const [session, setSession] = useState<Session | null>(() => load(SESSION_KEY, null))
+  const [completedSession, setCompletedSession] = useState<CompletedSession | null>(null)
+  const [cardDirection, setCardDirection] = useState<CardDirection>(() => load(SETTINGS_KEY, 'question'))
   const [filter, setFilter] = useState('')
   const [family, setFamily] = useState('Toutes les familles')
   const [deviceId] = useState(() => {
@@ -43,6 +48,7 @@ function App() {
   })
 
   useEffect(() => localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)), [progress])
+  useEffect(() => localStorage.setItem(SETTINGS_KEY, JSON.stringify(cardDirection)), [cardDirection])
   useEffect(() => {
     if (session) localStorage.setItem(SESSION_KEY, JSON.stringify(session))
     else localStorage.removeItem(SESSION_KEY)
@@ -52,11 +58,16 @@ function App() {
     return () => window.clearTimeout(timer)
   }, [deviceId, progress, session])
 
-  const percent = (text: TextData) => Math.round(((progress[text.id]?.known.length || 0) / text.cards.length) * 100)
+  const percent = (text: TextData) => {
+    const existing = new Set(text.cards.map(card => card.id))
+    const known = (progress[text.id]?.known || []).filter(id => existing.has(id)).length
+    return Math.round((known / text.cards.length) * 100)
+  }
   const startLearning = (textIds: string[], resume = false) => {
     const scope = textIds.join(',')
     if (resume && session?.scope === scope) return setView({ page: 'learn' })
     const queue = texts.filter(t => textIds.includes(t.id)).flatMap(t => t.cards.map(c => `${t.id}:${c.id}`))
+    setCompletedSession(null)
     setSession({ scope, queue, retry: [], known: [], current: 0 })
     setView({ page: 'learn' })
   }
@@ -72,7 +83,8 @@ function App() {
         {view.page === 'sheets' && <SheetsPage texts={texts} filter={filter} family={family} setFilter={setFilter} setFamily={setFamily} onText={id => setView({ page: 'text', textId: id })} onLearn={id => startLearning([id], false)} />}
         {view.page === 'plan' && <PlanPage texts={texts} percent={percent} onLearn={ids => startLearning(ids, false)} />}
         {view.page === 'text' && selected && <TextPage text={selected} percent={percent(selected)} onBack={() => navigate('home')} onLearn={() => startLearning([selected.id], session?.scope === selected.id)} />}
-        {view.page === 'learn' && session && <LearnPage texts={texts} session={session} setSession={setSession} setProgress={setProgress} onClose={() => navigate('home')} />}
+        {view.page === 'learn' && session && <LearnPage texts={texts} session={session} cardDirection={cardDirection} setCardDirection={setCardDirection} setSession={setSession} setProgress={setProgress} onComplete={setCompletedSession} onClose={() => navigate('home')} />}
+        {view.page === 'learn' && !session && completedSession && <LearnComplete completed={completedSession} onContinue={() => { setSession({ scope: completedSession.scope, queue: completedSession.retry, retry: [], known: completedSession.knownKeys, current: 0 }); setCompletedSession(null) }} onRestart={() => startLearning(completedSession.scope.split(','), false)} onClose={() => navigate('home')} />}
       </main>
       {view.page !== 'learn' && <BottomNav page={view.page} navigate={navigate} />}
     </div>
@@ -174,45 +186,111 @@ function PlanPage({ texts, percent, onLearn }: { texts: TextData[]; percent: (t:
   </div>
 }
 
-function LearnPage({ texts, session, setSession, setProgress, onClose }: { texts: TextData[]; session: Session; setSession: React.Dispatch<React.SetStateAction<Session | null>>; setProgress: React.Dispatch<React.SetStateAction<Progress>>; onClose: () => void }) {
+function LearnPage({ texts, session, cardDirection, setCardDirection, setSession, setProgress, onComplete, onClose }: { texts: TextData[]; session: Session; cardDirection: CardDirection; setCardDirection: (direction: CardDirection) => void; setSession: React.Dispatch<React.SetStateAction<Session | null>>; setProgress: React.Dispatch<React.SetStateAction<Progress>>; onComplete: (completed: CompletedSession) => void; onClose: () => void }) {
   const [flipped, setFlipped] = useState(false)
   const [drag, setDrag] = useState(0)
+  const [settingsOpen, setSettingsOpen] = useState(false)
   const startX = useRef<number | null>(null)
   const cards = useMemo(() => texts.flatMap(t => t.cards.map(c => ({ ...c, textId: t.id, textTitle: t.title }))), [texts])
   const lookup = useMemo(() => new Map(cards.map(c => [`${c.textId}:${c.id}`, c])), [cards])
   const currentKey = session.queue[session.current]
   const card = lookup.get(currentKey)
-  const allMode = session.scope.includes(',')
   const total = session.queue.length
+  const knownKeys = new Set(session.known)
+  const knownCount = session.queue.filter(key => knownKeys.has(key)).length
+  const progressLabel = `${Math.min(session.current + 1, total)} / ${total}`
+  const frontText = cardDirection === 'question' ? card?.question : card?.answer
+  const backText = cardDirection === 'question' ? card?.answer : card?.question
+  const frontLabel = cardDirection === 'question' ? card?.kind : 'réponse'
+  const backLabel = cardDirection === 'question' ? 'réponse' : 'question'
 
   const decide = (known: boolean) => {
     if (!card) return
+    const nextKnown = known ? [...new Set([...session.known, currentKey])] : session.known
     setProgress(prev => {
       const entry = prev[card.textId] || { known: [], attempts: 0 }
       return { ...prev, [card.textId]: { attempts: entry.attempts + 1, known: known ? [...new Set([...entry.known, card.id])] : entry.known.filter(id => id !== card.id) } }
     })
     const retry = known ? session.retry : [...session.retry, currentKey]
     if (session.current + 1 >= total) {
-      if (retry.length) setSession({ ...session, queue: retry, retry: [], current: 0, known: known ? [...session.known, currentKey] : session.known })
-      else { setSession(null); onClose() }
-    } else setSession({ ...session, retry, current: session.current + 1, known: known ? [...session.known, currentKey] : session.known })
+      onComplete({ known: total - retry.length, learning: retry.length, remaining: retry.length, total, scope: session.scope, retry, knownKeys: nextKnown })
+      setSession(null)
+    } else setSession({ ...session, retry, current: session.current + 1, known: nextKnown })
     setFlipped(false); setDrag(0)
   }
   if (!card) return <div className="learn-complete"><Sparkles /><h1>Session terminée</h1><p>Toutes les cartes ont été validées.</p><button className="primary" onClick={onClose}>Retour à l'accueil</button></div>
   return <div className="learn-page">
-    <header className="learn-header"><button className="icon-button" onClick={onClose}><X /></button><div><strong>{allMode ? 'Tout apprendre' : card.textTitle}</strong><small>Tour en cours · {session.retry.length} à revoir</small></div><span>{session.current + 1}/{total}</span></header>
+    <header className="learn-header">
+      <div className="learn-brand"><Layers3 size={18} /><ChevronRight size={22} /></div>
+      <strong>{progressLabel}</strong>
+      <div className="learn-tools"><button className="icon-button" onClick={() => setSettingsOpen(true)} aria-label="Paramètres"><Settings /></button><button className="icon-button" onClick={onClose} aria-label="Fermer"><X /></button></div>
+    </header>
     <div className="learn-progress"><span style={{ width: `${((session.current + 1) / total) * 100}%` }} /></div>
-    <div className="swipe-labels"><span className={drag < -50 ? 'show no' : ''}>À revoir</span><span className={drag > 50 ? 'show yes' : ''}>Je connais</span></div>
+    <div className="learn-counts">
+      <span className="count-pill learning"><em>{session.retry.length}</em><b>En cours</b></span>
+      <span className="count-pill known"><b>Connus</b><em>{knownCount}</em></span>
+    </div>
+    <div className="swipe-labels"><span className={drag < -50 ? 'show no' : ''}>En cours</span><span className={drag > 50 ? 'show yes' : ''}>Acquis</span></div>
     <div className="flashcard-wrap">
       <button className={`flashcard ${flipped ? 'flipped' : ''}`} style={{ transform: `translateX(${drag}px) rotate(${drag / 20}deg)` }} onClick={() => setFlipped(!flipped)}
         onPointerDown={e => { startX.current = e.clientX; e.currentTarget.setPointerCapture(e.pointerId) }}
         onPointerMove={e => { if (startX.current !== null) setDrag(e.clientX - startX.current) }}
         onPointerUp={() => { if (drag > 100) decide(true); else if (drag < -100) decide(false); else setDrag(0); startX.current = null }}>
-        <div className="flash-inner"><section className="flash-front">{allMode && <span className="source">{card.textTitle}</span>}<small>{card.kind} {card.movement ? `· Mouvement ${card.movement}` : ''}</small><h2>{card.question}</h2><p>Appuie pour voir la réponse</p></section><section className="flash-back">{allMode && <span className="source">{card.textTitle}</span>}<small>Réponse</small><p>{card.answer}</p><span>Appuie pour retourner</span></section></div>
+        <div className="flash-inner">
+          <section className="flash-front">
+            <small>{frontLabel} {card.movement ? `· Mouvement ${card.movement}` : ''}</small>
+            <h2>{frontText}</h2>
+            <p>Appuie pour voir le verso</p>
+            <span className="card-origin">{card.textTitle}</span>
+          </section>
+          <section className="flash-back">
+            <small>{backLabel}</small>
+            <p>{backText}</p>
+            <span>Appuie pour retourner</span>
+            <span className="card-origin">{card.textTitle}</span>
+          </section>
+        </div>
       </button>
     </div>
-    <div className="learn-actions"><button className="no-button" onClick={() => decide(false)}><RotateCcw /> À revoir</button><button className="yes-button" onClick={() => decide(true)}><Check /> Je connais</button></div>
-    <p className="gesture-help">Glisse à gauche pour revoir · à droite si tu connais</p>
+    <div className="learn-actions"><button className="no-button" onClick={() => decide(false)}><X /> À revoir</button><button className="yes-button" onClick={() => decide(true)}><Check /> Je connais</button></div>
+    <p className="gesture-help"><RotateCcw size={16} /> Suivre les progrès</p>
+    {settingsOpen && <div className="settings-backdrop" onClick={() => setSettingsOpen(false)}>
+      <section className="settings-panel" onClick={event => event.stopPropagation()}>
+        <div className="settings-title"><h2>Paramètres</h2><button className="icon-button" onClick={() => setSettingsOpen(false)} aria-label="Fermer les paramètres"><X /></button></div>
+        <p>Choisis le sens des cartes. Par défaut, la question est toujours affichée en premier.</p>
+        <button className={cardDirection === 'question' ? 'setting-choice active' : 'setting-choice'} onClick={() => setCardDirection('question')}><Check size={18} /> Question d'abord</button>
+        <button className={cardDirection === 'answer' ? 'setting-choice active' : 'setting-choice'} onClick={() => setCardDirection('answer')}><Check size={18} /> Réponse d'abord</button>
+      </section>
+    </div>}
+  </div>
+}
+
+function LearnComplete({ completed, onContinue, onRestart, onClose }: { completed: CompletedSession; onContinue: () => void; onRestart: () => void; onClose: () => void }) {
+  const percent = Math.round((completed.known / completed.total) * 100)
+  return <div className="learn-page complete-view">
+    <header className="learn-header">
+      <div className="learn-brand"><Layers3 size={18} /><ChevronRight size={22} /></div>
+      <strong>{completed.total} / {completed.total}</strong>
+      <div className="learn-tools"><button className="icon-button" aria-label="Paramètres"><Settings /></button><button className="icon-button" onClick={onClose} aria-label="Fermer"><X /></button></div>
+    </header>
+    <div className="learn-progress"><span style={{ width: '100%' }} /></div>
+    <section className="complete-panel">
+      <h1>Tour terminé.<br />Vous avez trié toutes les cartes.</h1>
+      <div className="party">🎉</div>
+      <h2>Votre progression · {percent} %</h2>
+      <div className="complete-stats">
+        <div className="complete-ring" style={{ background: `conic-gradient(#54e7b4 ${percent}%, transparent 0)` }}><Check size={54} /></div>
+        <div className="complete-bars">
+          <p className="bar known"><span>Connu</span><b>{completed.known}</b></p>
+          <p className="bar learning"><span>En cours</span><b>{completed.learning}</b></p>
+          <p className="bar remaining"><span>Termes restants</span><b>{completed.remaining}</b></p>
+        </div>
+      </div>
+      <h2>Prochaines étapes</h2>
+      {completed.retry.length > 0 && <button className="primary complete-button" onClick={onContinue}><ChevronRight size={18} /> Continuer avec les cartes en cours</button>}
+      <button className="secondary complete-button" onClick={onRestart}><RotateCcw size={18} /> Recommencer de zéro</button>
+      <button className="ghost-button complete-button" onClick={onClose}>Retour à l'accueil</button>
+    </section>
   </div>
 }
 
