@@ -1,800 +1,5 @@
 [
   {
-    "id": "05",
-    "title": "On ne badine pas avec l’amour - Acte I, scène 2",
-    "author": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
-    "work": "Deux cousins, Perdican et Camille, se retrouvent au château. Leur amour est empêché par l’orgueil, la religion et les jeux de parole.",
-    "family": "Musset · On ne badine pas avec l'amour",
-    "situation": "Scène d’exposition : retrouvailles publiques entre Perdican et Camille. Le Baron veut les rapprocher pour préparer leur mariage.",
-    "problem": "Comment cette scène d’exposition annonce-t-elle l’intrigue et l’opposition entre Perdican et Camille ?",
-    "bilan": "La scène expose l’intrigue : le mariage voulu par le Baron paraît impossible car Camille et Perdican sont opposés dans leurs émotions, leurs valeurs et leur rapport au monde.",
-    "opening": "On ne badine pas avec l’amour, acte III, scène 6 · Perdican utilisera ensuite Rosette pour se venger de la froideur de Camille.",
-    "transcription": "Le baron\n(Perdican entre d’un côté, Camille de l’autre.) Bonjour, mes enfants ; bonjour, ma chère Camille, mon\ncher Perdican ! embrassez-moi, et embrassez-vous.\nPerdican\nBonjour, mon père, ma sœur bien-aimée ! Quel bonheur ! que je suis heureux !\nCamille\nMon père et mon cousin, je vous salue.\nPerdican\nComme te voilà grande, Camille ! et belle comme le jour.\nLe Baron\nQuand as-tu quitté Paris, Perdican ?\nPerdican\nMercredi, je crois, ou mardi. Comme te voilà métamorphosée en femme ! Je suis donc un homme,\nmoi ? Il me semble que c’est hier que je t’ai vue pas plus haute que cela.\nLe Baron\nVous devez être fatigués ; la route est longue, et il fait chaud.\nPerdican\nOh ! mon Dieu, non. Regardez donc, mon père, comme Camille est jolie !\nLe Baron\nAllons, Camille, embrasse ton cousin.\nCamille\nExcusez-moi.\nLe Baron\nUn compliment vaut un baiser ; embrasse-la, Perdican.\nPerdican\nSi ma cousine recule quand je lui tends la main, je vous dirai à mon tour : Excusez-moi ; l’amour\npeut voler un baiser, mais non pas l’amitié.\nCamille\nL’amitié ni l’amour ne doivent recevoir que ce qu’ils peuvent rendre.\nLe Baron, à maître Bridaine.\nVoilà un commencement de mauvais augure, hé ?\n\nMaître Bridaine, au baron.\nTrop de pudeur est sans doute un défaut ; mais le mariage lève bien des scrupules.\nLe Baron, à maître Bridaine.\nJe suis choqué, — blessé. — Cette réponse m’a déplu. — Excusez-moi ! Avez-vous vu qu’elle a fait\nmine de se signer ? — Venez ici, que je vous parle. — Cela m’est pénible au dernier point. Ce\nmoment, qui devait m’être si doux, est complètement gâté. — Je suis vexé, piqué. — Diable ! voilà qui\nest fort mauvais.\nMaître Bridaine\nDites-leur quelques mots ; les voilà qui se tournent le dos.\nLe Baron\nEh bien ! mes enfants, à quoi pensez-vous donc ? Que fais-tu là, Camille, devant cette tapisserie ?\nCamille, regardant un tableau.\nVoilà un beau portrait, mon oncle ! N’est-ce pas une grand’tante à nous ?\nLe Baron\nOui, mon enfant, c’est ta bisaïeule, — ou du moins la sœur de ton bisaïeul, — car la chère dame n’a\njamais concouru, — pour sa part, je crois, autrement qu’en prières, — à l’accroissement de la\nfamille. C’était, ma foi, une sainte femme.\nCamille\nOh ! oui, une sainte ! c’est ma grand’tante Isabelle. Comme ce costume religieux lui va bien !\nLe Baron\nEt toi, Perdican, que fais-tu là devant ce pot de fleurs ?\nPerdican\nVoilà une fleur charmante, mon père. C’est un héliotrope.\nLe Baron\nTe moques-tu ? elle est grosse comme une mouche.\nPerdican\nCette petite fleur grosse comme une mouche a bien son prix.\nMaître Bridaine\nSans doute ! le docteur a raison. Demandez-lui à quel sexe, à quelle classe elle appartient, de quels\néléments elle se forme, d’où lui viennent sa sève et sa couleur ; il vous ravira en extase en vous\ndétaillant les phénomènes de ce brin d’herbe, depuis la racine jusqu’à la fleur.\nPerdican\nJe n’en sais pas si long, mon révérend. Je trouve qu’elle sent bon, voilà tout.\n\nOn ne badine pas avec l’amour, Musset, acte I scène 2",
-    "photoPaths": [
-      "assets/photos/05-photo_page_05.jpg",
-      "assets/photos/05-photo_page_06.jpg"
-    ],
-    "movements": [
-      {
-        "number": 1,
-        "title": "DES RETROUVAILLES DECEVANTES",
-        "summary": "retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.",
-        "idea": "Les retrouvailles révèlent tout de suite une opposition entre les deux cousins.",
-        "analyses": [
-          {
-            "procedure": "Didascalie d’entrée",
-            "citation": "Perdican entre d’un côté, Camille de l’autre",
-            "line": "161-162",
-            "interpretation": "Entrées opposées -> annonce symbolique de leur opposition -> dès leur arrivée, la mise en scène montre qu’ils ne sont pas unis : cela annonce déjà que l’intrigue amoureuse sera fondée sur une séparation entre Perdican et Camille"
-          },
-          {
-            "procedure": "Expressions affectueuses",
-            "citation": "mes enfants ; ma chère Camille ; mon cher Perdican",
-            "line": "162-163",
-            "interpretation": "Le Baron veut créer une ambiance familiale et tendre -> le Baron essaie d’imposer une harmonie familiale, mais cette tendresse paraît artificielle car elle ne correspond pas aux réactions des deux cousins : cela annonce le décalage entre le mariage voulu par les adultes et la réalité des sentiments"
-          },
-          {
-            "procedure": "Impératif",
-            "citation": "embrassez-moi, et embrassez-vous",
-            "line": "163",
-            "interpretation": "Le Baron cherche à provoquer le rapprochement amoureux -> l’ordre du Baron montre qu’il veut forcer le rapprochement entre Perdican et Camille, ce qui annonce une intrigue où l’amour ne naît pas naturellement mais se heurte à des résistances"
-          },
-          {
-            "procedure": "Exclamations",
-            "citation": "Quel bonheur ! que je suis heureux !",
-            "line": "164-165",
-            "interpretation": "Perdican exprime une joie spontanée et sincère -> Perdican apparaît immédiatement ouvert et enthousiaste, ce qui crée un contraste avec Camille et annonce leur opposition de caractère"
-          },
-          {
-            "procedure": "Réponse sèche",
-            "citation": "Mon père et mon cousin, je vous salue",
-            "line": "166",
-            "interpretation": "Camille reste froide, polie, sans émotion -> Camille garde une distance froide et formelle, donc la scène d’exposition annonce que l’amour sera bloqué par son refus de se livrer émotionnellement"
-          },
-          {
-            "procedure": "Refus bref",
-            "citation": "Excusez-moi",
-            "line": "177",
-            "interpretation": "Camille échappe au baiser et affirme déjà sa distance -> ce refus concret du contact physique rend visible l’opposition entre les deux cousins et annonce le conflit amoureux qui va structurer toute l’intrigue"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "title": "LE REFUS DE CAMILLE",
-        "summary": "Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.",
-        "idea": "Le refus du baiser crée malaise, comique et inquiétude.",
-        "analyses": [
-          {
-            "procedure": "Pirouette du Baron",
-            "citation": "Un compliment vaut un baiser",
-            "line": "178",
-            "interpretation": "Le Baron tente de sauver la situation avec légèreté -> le Baron essaie de transformer le malaise en plaisanterie, mais cela montre surtout qu’il ne comprend pas la profondeur de l’opposition entre Perdican et Camille"
-          },
-          {
-            "procedure": "Syllogisme de Perdican",
-            "citation": "l’amour peut voler un baiser, mais non pas l’amitié",
-            "line": "?",
-            "interpretation": "Perdican reste courtois et évite de forcer Camille -> Perdican accepte de ne pas forcer Camille, ce qui montre qu’il cherche encore un lien sincère, contrairement à Camille qui se ferme déjà : leur rapport à l’amour n’est donc pas le même"
-          },
-          {
-            "procedure": "Présent de vérité générale",
-            "citation": "L’amitié ni l’amour ne doivent recevoir que ce qu’ils peuvent rendre",
-            "line": "?",
-            "interpretation": "Camille donne une règle froide et universelle -> Camille transforme une situation affective en principe général, ce qui annonce son rapport contrôlé et distant à l’amour"
-          },
-          {
-            "procedure": "Double négation",
-            "citation": "L’amitié ni l’amour",
-            "line": "182",
-            "interpretation": "Le refus concerne autant l’amour que l’amitié -> Camille ne refuse pas seulement le baiser amoureux, elle refuse aussi la tendresse familiale ou amicale : cela renforce l’idée d’une opposition profonde avec Perdican"
-          },
-          {
-            "procedure": "Aparté inquiet",
-            "citation": "Voilà un commencement de mauvais augure",
-            "line": "184",
-            "interpretation": "Le Baron pressent déjà l’échec du mariage -> l’aparté donne une fonction d’annonce : dès l’exposition, le spectateur comprend que le projet de mariage risque d’échouer"
-          },
-          {
-            "procedure": "Champ lexical de l’émotion",
-            "citation": "choqué ; blessé ; vexé ; piqué",
-            "line": "187",
-            "interpretation": "Le Baron dramatise -> effet comique -> le comique du Baron masque une vraie inquiétude : son exagération révèle que le refus de Camille n’est pas anodin et annonce les tensions de l’intrigue"
-          }
-        ]
-      },
-      {
-        "number": 3,
-        "title": "DEUX PERSONNAGES DIAMETRALEMENT OPPOSES",
-        "summary": "les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.",
-        "idea": "Camille et Perdican ne regardent pas le même monde.",
-        "analyses": [
-          {
-            "procedure": "Didascalie",
-            "citation": "Camille, regardant un tableau",
-            "line": "196",
-            "interpretation": "Camille se détourne de Perdican vers une image religieuse -> Camille détourne son regard de Perdican vers la religion, ce qui annonce que son éducation religieuse sera un obstacle à l’amour"
-          },
-          {
-            "procedure": "Exclamation religieuse",
-            "citation": "Oh ! oui, une sainte !",
-            "line": "202",
-            "interpretation": "Camille admire une figure de dévotion -> Camille valorise la sainteté et la pureté, ce qui l’oppose à Perdican, plus attaché à la vie terrestre et aux sensations"
-          },
-          {
-            "procedure": "Opposition d’objets",
-            "citation": "devant cette tapisserie / devant ce pot de fleurs",
-            "line": "204",
-            "interpretation": "Le tableau renvoie au ciel, la fleur à la terre -> les objets regardés symbolisent leur opposition : Camille regarde le religieux, Perdican regarde le vivant et le naturel"
-          },
-          {
-            "procedure": "Lexique de la nature",
-            "citation": "une fleur charmante ; C’est un héliotrope",
-            "line": "205",
-            "interpretation": "Perdican est sensible à la beauté simple du monde -> Perdican apparaît comme un personnage tourné vers la nature et le plaisir simple, ce qui l’oppose directement à Camille, tournée vers l’idéal religieux"
-          },
-          {
-            "procedure": "Comparaison triviale",
-            "citation": "elle est grosse comme une mouche",
-            "line": "207",
-            "interpretation": "Le Baron ne comprend pas la sensibilité de Perdican -> le Baron réduit la fleur à un détail ridicule, ce qui montre qu’il ne comprend pas non plus la vraie nature de Perdican ni l’opposition entre les deux jeunes gens"
-          },
-          {
-            "procedure": "Réponse simple",
-            "citation": "Je trouve qu’elle sent bon, voilà tout",
-            "line": "214-215",
-            "interpretation": "Perdican refuse le savoir compliqué : il privilégie la sensation -> Perdican se définit par une sensibilité directe et naturelle, contrairement à Camille qui se réfugie dans des valeurs religieuses : la scène expose donc clairement leur opposition"
-          }
-        ]
-      }
-    ],
-    "cards": [
-      {
-        "kind": "intro",
-        "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
-        "id": "05-c001"
-      },
-      {
-        "kind": "intro",
-        "question": "Que faut-il dire sur l’œuvre ?",
-        "answer": "Deux cousins, Perdican et Camille, se retrouvent au château. Leur amour est empêché par l’orgueil, la religion et les jeux de parole.",
-        "id": "05-c002"
-      },
-      {
-        "kind": "intro",
-        "question": "Quelle est la situation de l’extrait ?",
-        "answer": "Scène d’exposition : retrouvailles publiques entre Perdican et Camille. Le Baron veut les rapprocher pour préparer leur mariage.",
-        "id": "05-c003"
-      },
-      {
-        "kind": "intro",
-        "question": "Quelle est la problématique ?",
-        "answer": "Comment cette scène d’exposition annonce-t-elle l’intrigue et l’opposition entre Perdican et Camille ?",
-        "id": "05-c004"
-      },
-      {
-        "kind": "résumé",
-        "movement": 1,
-        "question": "Que se passe-t-il dans le mouvement 1 ?",
-        "answer": "retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.",
-        "id": "05-c005"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 1,
-        "question": "Quel est le titre du mouvement 1 ?",
-        "answer": "DES RETROUVAILLES DECEVANTES",
-        "id": "05-c006"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 1,
-        "question": "Quelle est l’idée directrice du mouvement 1 (retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.) ?",
-        "answer": "Les retrouvailles révèlent tout de suite une opposition entre les deux cousins.",
-        "id": "05-c007"
-      },
-      {
-        "kind": "procédés",
-        "movement": 1,
-        "question": "Dans le mouvement 1 (retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.), quels procédés importants faut-il retenir ?",
-        "answer": "Didascalie d’entrée · Expressions affectueuses · Impératif · Exclamations · Réponse sèche · Refus bref",
-        "id": "05-c008"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « Perdican entre d’un côté, Camille de l’autre » (l. 161-162), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Didascalie d’entrée -> Entrées opposées -> annonce symbolique de leur opposition -> dès leur arrivée, la mise en scène montre qu’ils ne sont pas unis : cela annonce déjà que l’intrigue amoureuse sera fondée sur une séparation entre Perdican et Camille",
-        "id": "05-c009"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « mes enfants ; ma chère Camille ; mon cher Perdican » (l. 162-163), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Expressions affectueuses -> Le Baron veut créer une ambiance familiale et tendre -> le Baron essaie d’imposer une harmonie familiale, mais cette tendresse paraît artificielle car elle ne correspond pas aux réactions des deux cousins : cela annonce le décalage entre le mariage voulu par les adultes et la réalité des sentiments",
-        "id": "05-c010"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « embrassez-moi, et embrassez-vous » (l. 163), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Impératif -> Le Baron cherche à provoquer le rapprochement amoureux -> l’ordre du Baron montre qu’il veut forcer le rapprochement entre Perdican et Camille, ce qui annonce une intrigue où l’amour ne naît pas naturellement mais se heurte à des résistances",
-        "id": "05-c011"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « Quel bonheur ! que je suis heureux ! » (l. 164-165), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Exclamations -> Perdican exprime une joie spontanée et sincère -> Perdican apparaît immédiatement ouvert et enthousiaste, ce qui crée un contraste avec Camille et annonce leur opposition de caractère",
-        "id": "05-c012"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « Mon père et mon cousin, je vous salue » (l. 166), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Réponse sèche -> Camille reste froide, polie, sans émotion -> Camille garde une distance froide et formelle, donc la scène d’exposition annonce que l’amour sera bloqué par son refus de se livrer émotionnellement",
-        "id": "05-c013"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « Excusez-moi » (l. 177), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Refus bref -> Camille échappe au baiser et affirme déjà sa distance -> ce refus concret du contact physique rend visible l’opposition entre les deux cousins et annonce le conflit amoureux qui va structurer toute l’intrigue",
-        "id": "05-c014"
-      },
-      {
-        "kind": "résumé",
-        "movement": 2,
-        "question": "Que se passe-t-il dans le mouvement 2 ?",
-        "answer": "Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.",
-        "id": "05-c015"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 2,
-        "question": "Quel est le titre du mouvement 2 ?",
-        "answer": "LE REFUS DE CAMILLE",
-        "id": "05-c016"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 2,
-        "question": "Quelle est l’idée directrice du mouvement 2 (Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.) ?",
-        "answer": "Le refus du baiser crée malaise, comique et inquiétude.",
-        "id": "05-c017"
-      },
-      {
-        "kind": "procédés",
-        "movement": 2,
-        "question": "Dans le mouvement 2 (Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.), quels procédés importants faut-il retenir ?",
-        "answer": "Pirouette du Baron · Syllogisme de Perdican · Présent de vérité générale · Double négation · Aparté inquiet · Champ lexical de l’émotion",
-        "id": "05-c018"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Un compliment vaut un baiser » (l. 178), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Pirouette du Baron -> Le Baron tente de sauver la situation avec légèreté -> le Baron essaie de transformer le malaise en plaisanterie, mais cela montre surtout qu’il ne comprend pas la profondeur de l’opposition entre Perdican et Camille",
-        "id": "05-c019"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « l’amour peut voler un baiser, mais non pas l’amitié » (l. ?), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Syllogisme de Perdican -> Perdican reste courtois et évite de forcer Camille -> Perdican accepte de ne pas forcer Camille, ce qui montre qu’il cherche encore un lien sincère, contrairement à Camille qui se ferme déjà : leur rapport à l’amour n’est donc pas le même",
-        "id": "05-c020"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « L’amitié ni l’amour ne doivent recevoir que ce qu’ils peuvent rendre » (l. ?), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Présent de vérité générale -> Camille donne une règle froide et universelle -> Camille transforme une situation affective en principe général, ce qui annonce son rapport contrôlé et distant à l’amour",
-        "id": "05-c021"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « L’amitié ni l’amour » (l. 182), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Double négation -> Le refus concerne autant l’amour que l’amitié -> Camille ne refuse pas seulement le baiser amoureux, elle refuse aussi la tendresse familiale ou amicale : cela renforce l’idée d’une opposition profonde avec Perdican",
-        "id": "05-c022"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Voilà un commencement de mauvais augure » (l. 184), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Aparté inquiet -> Le Baron pressent déjà l’échec du mariage -> l’aparté donne une fonction d’annonce : dès l’exposition, le spectateur comprend que le projet de mariage risque d’échouer",
-        "id": "05-c023"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « choqué ; blessé ; vexé ; piqué » (l. 187), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Champ lexical de l’émotion -> Le Baron dramatise -> effet comique -> le comique du Baron masque une vraie inquiétude : son exagération révèle que le refus de Camille n’est pas anodin et annonce les tensions de l’intrigue",
-        "id": "05-c024"
-      },
-      {
-        "kind": "résumé",
-        "movement": 3,
-        "question": "Que se passe-t-il dans le mouvement 3 ?",
-        "answer": "les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.",
-        "id": "05-c025"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 3,
-        "question": "Quel est le titre du mouvement 3 ?",
-        "answer": "DEUX PERSONNAGES DIAMETRALEMENT OPPOSES",
-        "id": "05-c026"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 3,
-        "question": "Quelle est l’idée directrice du mouvement 3 (les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.) ?",
-        "answer": "Camille et Perdican ne regardent pas le même monde.",
-        "id": "05-c027"
-      },
-      {
-        "kind": "procédés",
-        "movement": 3,
-        "question": "Dans le mouvement 3 (les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.), quels procédés importants faut-il retenir ?",
-        "answer": "Didascalie · Exclamation religieuse · Opposition d’objets · Lexique de la nature · Comparaison triviale · Réponse simple",
-        "id": "05-c028"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Camille, regardant un tableau » (l. 196), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Didascalie -> Camille se détourne de Perdican vers une image religieuse -> Camille détourne son regard de Perdican vers la religion, ce qui annonce que son éducation religieuse sera un obstacle à l’amour",
-        "id": "05-c029"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Oh ! oui, une sainte ! » (l. 202), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Exclamation religieuse -> Camille admire une figure de dévotion -> Camille valorise la sainteté et la pureté, ce qui l’oppose à Perdican, plus attaché à la vie terrestre et aux sensations",
-        "id": "05-c030"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « devant cette tapisserie / devant ce pot de fleurs » (l. 204), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Opposition d’objets -> Le tableau renvoie au ciel, la fleur à la terre -> les objets regardés symbolisent leur opposition : Camille regarde le religieux, Perdican regarde le vivant et le naturel",
-        "id": "05-c031"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « une fleur charmante ; C’est un héliotrope » (l. 205), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Lexique de la nature -> Perdican est sensible à la beauté simple du monde -> Perdican apparaît comme un personnage tourné vers la nature et le plaisir simple, ce qui l’oppose directement à Camille, tournée vers l’idéal religieux",
-        "id": "05-c032"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « elle est grosse comme une mouche » (l. 207), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Comparaison triviale -> Le Baron ne comprend pas la sensibilité de Perdican -> le Baron réduit la fleur à un détail ridicule, ce qui montre qu’il ne comprend pas non plus la vraie nature de Perdican ni l’opposition entre les deux jeunes gens",
-        "id": "05-c033"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Je trouve qu’elle sent bon, voilà tout » (l. 214-215), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Réponse simple -> Perdican refuse le savoir compliqué : il privilégie la sensation -> Perdican se définit par une sensibilité directe et naturelle, contrairement à Camille qui se réfugie dans des valeurs religieuses : la scène expose donc clairement leur opposition",
-        "id": "05-c034"
-      },
-      {
-        "kind": "conclusion",
-        "question": "Quel est le bilan du texte ?",
-        "answer": "La scène expose l’intrigue : le mariage voulu par le Baron paraît impossible car Camille et Perdican sont opposés dans leurs émotions, leurs valeurs et leur rapport au monde.",
-        "id": "05-c035"
-      },
-      {
-        "kind": "conclusion",
-        "question": "Quelle ouverture peut-on faire ?",
-        "answer": "On ne badine pas avec l’amour, acte III, scène 6 · Perdican utilisera ensuite Rosette pour se venger de la froideur de Camille.",
-        "id": "05-c036"
-      }
-    ]
-  },
-  {
-    "id": "06",
-    "title": "On ne badine pas avec l’amour - Acte III, scène 6",
-    "author": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
-    "work": "Perdican et Camille s’aiment mais se blessent par orgueil. Rosette devient victime de leurs jeux amoureux.",
-    "family": "Musset · On ne badine pas avec l'amour",
-    "situation": "Perdican parle à Rosette à haute voix pour être entendu de Camille. Il met en scène une fausse déclaration.",
-    "problem": "Comment une déclaration d’amour devient-elle une manipulation cruelle ?",
-    "bilan": "Musset montre que les mots de l’amour peuvent devenir dangereux : Perdican utilise Rosette pour atteindre Camille, et cette manipulation annonce le drame final.",
-    "opening": "On ne badine pas avec l’amour, acte III, scène 8 · Rosette mourra après avoir compris qu’elle a été utilisée dans ce jeu amoureux.",
-    "transcription": "SÉQ. I, T2\nPERDICAN, à haute voix, de manière que Camille l’entende.\nJe t’aime, Rosette ; toi seule au monde tu n’as rien oublié de nos\nbeaux jours passés ; toi seule tu te souviens de la vie qui n’est plus ;\nprends ta part de ma vie nouvelle ; donne-moi ton cœur, chère\nenfant ; voilà le gage de notre amour.\nIl lui pose sa chaîne sur le cou.\nROSETTE\nVous me donnez votre chaîne d’or ?\nPERDICAN\nRegarde à présent cette bague. Lève-toi, et approchons-nous de\ncette fontaine. Nous vois-tu tous les deux, dans la source, appuyés\nl’un sur l’autre ? Vois-tu tes beaux yeux près des miens, ta main dans\nla mienne ? Regarde tout cela s’effacer. (Il jette sa bague dans l’eau.)\nRegarde comme notre image a disparu ; la voilà qui revient peu à\npeu ; l’eau qui s’était troublée reprend son équilibre ; elle tremble\nencore ; de grands cercles noirs courent à sa surface ; patience, nous\nreparaissons ; déjà je distingue de nouveau tes bras enlacés dans les\nmiens ; encore une minute, et il n’y aura plus une ride sur ton joli\nvisage ; regarde ! c’était une bague que m’avait donnée Camille.\nCAMILLE, à part.\nIl a jeté ma bague dans l’eau.\nPERDICAN\nSais-tu ce que c’est que l’amour, Rosette ? Écoute ! Le vent se tait ;\nla pluie du matin roule en perles sur les feuilles séchées que le soleil\nranime. Par la lumière du ciel, par le soleil que voilà, je t’aime. Tu veux\nbien de moi, n’est-ce pas ? On n’a pas flétri ta jeunesse ? on n’a pas\ninfiltré dans ton sang vermeil les restes d’un sang affadi¹ ? Tu ne veux\npas te faire religieuse ; te voilà jeune et belle dans les bras d’un jeune\nhomme. Ô Rosette, Rosette, sais-tu ce que c’est que l’amour ?\nROSETTE.\nHélas ! monsieur le docteur, je vous aimerai comme je pourrai.\n\nNote\n1. affadi : fade, sans vigueur.\nOn ne badine pas avec l’amour, III, 6",
-    "photoPaths": [
-      "assets/photos/06-photo_page_07.jpg"
-    ],
-    "movements": [
-      {
-        "number": 1,
-        "title": "UNE FAUSSE DECLARATION DESTINEE A CAMILLE",
-        "summary": "Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.",
-        "idea": "Perdican parle à Rosette, mais vise Camille.",
-        "analyses": [
-          {
-            "procedure": "Didascalie",
-            "citation": "à haute voix, de manière que Camille l’entende",
-            "line": "25",
-            "interpretation": "Double énonciation : Rosette écoute, mais Camille est visée -> la didascalie révèle directement la manipulation : Perdican ne parle pas seulement pour aimer Rosette, il utilise sa parole pour atteindre Camille"
-          },
-          {
-            "procedure": "Déclaration directe",
-            "citation": "Je t’aime, Rosette",
-            "line": "26",
-            "interpretation": "Parole apparemment simple, mais déjà piégée -> la phrase ressemble à une vraie déclaration d’amour, mais elle devient cruelle car elle est utilisée comme une arme contre Camille"
-          },
-          {
-            "procedure": "Répétition",
-            "citation": "toi seule",
-            "line": "26",
-            "interpretation": "Perdican donne à Rosette une place unique pour blesser Camille -> cette insistance donne l’impression que Rosette est choisie, alors qu’elle sert surtout à rendre Camille jalouse"
-          },
-          {
-            "procedure": "Nostalgie",
-            "citation": "nos beaux jours passés",
-            "line": "26-27",
-            "interpretation": "Il transforme l’enfance commune en argument amoureux -> Perdican utilise un souvenir tendre pour rendre sa déclaration plus crédible, ce qui renforce la cruauté de la manipulation"
-          },
-          {
-            "procedure": "Promesse",
-            "citation": "prends ta part de ma vie nouvelle",
-            "line": "28",
-            "interpretation": "Il fait croire à un vrai engagement -> la promesse donne à Rosette l’illusion d’un avenir amoureux, alors que Perdican cherche surtout à provoquer Camille"
-          },
-          {
-            "procedure": "Objet symbolique",
-            "citation": "voilà le gage de notre amour",
-            "line": "29",
-            "interpretation": "La chaîne rend la mise en scène plus crédible -> l’objet transforme la fausse déclaration en preuve visible, ce qui rend la manipulation plus convaincante et donc plus cruelle"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "title": "LA BAGUE JETEE DANS L’EAU",
-        "summary": "la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.",
-        "idea": "Perdican transforme la fontaine en scène symbolique.",
-        "analyses": [
-          {
-            "procedure": "Impératifs",
-            "citation": "Regarde ; Lève-toi",
-            "line": "32",
-            "interpretation": "Perdican dirige Rosette comme un metteur en scène -> Perdican contrôle les gestes de Rosette comme dans une scène préparée : cela montre qu’il ne vit pas un amour spontané, mais organise une manipulation"
-          },
-          {
-            "procedure": "Image du couple",
-            "citation": "Nous vois-tu tous les deux, dans la source",
-            "line": "33",
-            "interpretation": "Le reflet fabrique une fausse union amoureuse -> le reflet donne l’image d’un couple, mais cette image est fausse : elle sert seulement à rendre Camille jalouse"
-          },
-          {
-            "procedure": "Didascalie centrale",
-            "citation": "Il jette sa bague dans l’eau",
-            "line": "35",
-            "interpretation": "Geste symbolique : il attaque le lien avec Camille -> Perdican fait semblant de rompre avec Camille devant Rosette, mais le vrai but est de blesser Camille par un geste spectaculaire"
-          },
-          {
-            "procedure": "Champ lexical du trouble",
-            "citation": "notre image a disparu ; l’eau qui s’était troublée",
-            "line": "36-37",
-            "interpretation": "L’eau reflète le trouble amoureux provoqué par Perdican -> l’eau troublée représente le désordre créé par Perdican : sa déclaration ne crée pas de l’amour, mais de la confusion et de la souffrance"
-          },
-          {
-            "procedure": "Image inquiétante",
-            "citation": "de grands cercles noirs",
-            "line": "38",
-            "interpretation": "Le jeu amoureux prend une couleur sombre -> cette image annonce que la manipulation amoureuse devient dangereuse et qu’elle peut mener au drame"
-          },
-          {
-            "procedure": "Réaction de Camille",
-            "citation": "Il a jeté ma bague dans l’eau",
-            "line": "42",
-            "interpretation": "La manipulation fonctionne : Camille est blessée -> la réaction de Camille prouve que Perdican a atteint sa vraie cible : Rosette n’est qu’un moyen pour toucher Camille"
-          }
-        ]
-      },
-      {
-        "number": 3,
-        "title": "UNE DEFINITION LYRIQUE MAIS MANIPULATRICE DE L’AMOUR",
-        "summary": "Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.",
-        "idea": "Perdican parle magnifiquement d’amour, mais son discours reste calculé.",
-        "analyses": [
-          {
-            "procedure": "Question répétée",
-            "citation": "Sais-tu ce que c’est que l’amour, Rosette ?",
-            "line": "43",
-            "interpretation": "Perdican se place en professeur de l’amour -> Perdican domine Rosette par la parole : il lui explique l’amour alors qu’il est lui-même en train de la tromper"
-          },
-          {
-            "procedure": "Cadre naturel",
-            "citation": "Le vent se tait ; la pluie du matin roule en perles",
-            "line": "44",
-            "interpretation": "L’amour est associé à une nature poétique et vivante -> le décor rend la déclaration belle et lyrique, mais cette beauté cache une intention manipulatrice"
-          },
-          {
-            "procedure": "Serment solennel",
-            "citation": "Par la lumière du ciel, par le soleil que voilà, je t’aime",
-            "line": "45",
-            "interpretation": "Perdican donne une grandeur sacrée à une parole fausse -> le serment paraît noble, mais il devient cruel car Perdican utilise un langage sacré pour rendre crédible un mensonge"
-          },
-          {
-            "procedure": "Opposition à Camille",
-            "citation": "Tu ne veux pas te faire religieuse",
-            "line": "47-48",
-            "interpretation": "Rosette sert de contraste avec Camille -> Perdican ne valorise Rosette que pour l’opposer à Camille : cela montre que sa déclaration reste centrée sur Camille"
-          },
-          {
-            "procedure": "Valorisation de Rosette",
-            "citation": "jeune et belle dans les bras d’un jeune homme",
-            "line": "4_-49",
-            "interpretation": "Perdican oppose jeunesse vivante et refus religieux -> Perdican flatte Rosette pour construire une image séduisante de l’amour, mais cette valorisation sert surtout à provoquer Camille"
-          },
-          {
-            "procedure": "Réponse naïve",
-            "citation": "je vous aimerai comme je pourrai",
-            "line": "50",
-            "interpretation": "Rosette est sincère et fragile : cela rend la scène cruelle -> Rosette croit à la déclaration, donc la manipulation devient vraiment cruelle : elle est innocente face au calcul de Perdican"
-          }
-        ]
-      }
-    ],
-    "cards": [
-      {
-        "kind": "intro",
-        "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
-        "id": "06-c001"
-      },
-      {
-        "kind": "intro",
-        "question": "Que faut-il dire sur l’œuvre ?",
-        "answer": "Perdican et Camille s’aiment mais se blessent par orgueil. Rosette devient victime de leurs jeux amoureux.",
-        "id": "06-c002"
-      },
-      {
-        "kind": "intro",
-        "question": "Quelle est la situation de l’extrait ?",
-        "answer": "Perdican parle à Rosette à haute voix pour être entendu de Camille. Il met en scène une fausse déclaration.",
-        "id": "06-c003"
-      },
-      {
-        "kind": "intro",
-        "question": "Quelle est la problématique ?",
-        "answer": "Comment une déclaration d’amour devient-elle une manipulation cruelle ?",
-        "id": "06-c004"
-      },
-      {
-        "kind": "résumé",
-        "movement": 1,
-        "question": "Que se passe-t-il dans le mouvement 1 ?",
-        "answer": "Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.",
-        "id": "06-c005"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 1,
-        "question": "Quel est le titre du mouvement 1 ?",
-        "answer": "UNE FAUSSE DECLARATION DESTINEE A CAMILLE",
-        "id": "06-c006"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 1,
-        "question": "Quelle est l’idée directrice du mouvement 1 (Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.) ?",
-        "answer": "Perdican parle à Rosette, mais vise Camille.",
-        "id": "06-c007"
-      },
-      {
-        "kind": "procédés",
-        "movement": 1,
-        "question": "Dans le mouvement 1 (Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.), quels procédés importants faut-il retenir ?",
-        "answer": "Didascalie · Déclaration directe · Répétition · Nostalgie · Promesse · Objet symbolique",
-        "id": "06-c008"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « à haute voix, de manière que Camille l’entende » (l. 25), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Didascalie -> Double énonciation : Rosette écoute, mais Camille est visée -> la didascalie révèle directement la manipulation : Perdican ne parle pas seulement pour aimer Rosette, il utilise sa parole pour atteindre Camille",
-        "id": "06-c009"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « Je t’aime, Rosette » (l. 26), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Déclaration directe -> Parole apparemment simple, mais déjà piégée -> la phrase ressemble à une vraie déclaration d’amour, mais elle devient cruelle car elle est utilisée comme une arme contre Camille",
-        "id": "06-c010"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « toi seule » (l. 26), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Répétition -> Perdican donne à Rosette une place unique pour blesser Camille -> cette insistance donne l’impression que Rosette est choisie, alors qu’elle sert surtout à rendre Camille jalouse",
-        "id": "06-c011"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « nos beaux jours passés » (l. 26-27), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Nostalgie -> Il transforme l’enfance commune en argument amoureux -> Perdican utilise un souvenir tendre pour rendre sa déclaration plus crédible, ce qui renforce la cruauté de la manipulation",
-        "id": "06-c012"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « prends ta part de ma vie nouvelle » (l. 28), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Promesse -> Il fait croire à un vrai engagement -> la promesse donne à Rosette l’illusion d’un avenir amoureux, alors que Perdican cherche surtout à provoquer Camille",
-        "id": "06-c013"
-      },
-      {
-        "kind": "analyse",
-        "movement": 1,
-        "question": "Pour « voilà le gage de notre amour » (l. 29), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Objet symbolique -> La chaîne rend la mise en scène plus crédible -> l’objet transforme la fausse déclaration en preuve visible, ce qui rend la manipulation plus convaincante et donc plus cruelle",
-        "id": "06-c014"
-      },
-      {
-        "kind": "résumé",
-        "movement": 2,
-        "question": "Que se passe-t-il dans le mouvement 2 ?",
-        "answer": "la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.",
-        "id": "06-c015"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 2,
-        "question": "Quel est le titre du mouvement 2 ?",
-        "answer": "LA BAGUE JETEE DANS L’EAU",
-        "id": "06-c016"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 2,
-        "question": "Quelle est l’idée directrice du mouvement 2 (la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.) ?",
-        "answer": "Perdican transforme la fontaine en scène symbolique.",
-        "id": "06-c017"
-      },
-      {
-        "kind": "procédés",
-        "movement": 2,
-        "question": "Dans le mouvement 2 (la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.), quels procédés importants faut-il retenir ?",
-        "answer": "Impératifs · Image du couple · Didascalie centrale · Champ lexical du trouble · Image inquiétante · Réaction de Camille",
-        "id": "06-c018"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Regarde ; Lève-toi » (l. 32), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Impératifs -> Perdican dirige Rosette comme un metteur en scène -> Perdican contrôle les gestes de Rosette comme dans une scène préparée : cela montre qu’il ne vit pas un amour spontané, mais organise une manipulation",
-        "id": "06-c019"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Nous vois-tu tous les deux, dans la source » (l. 33), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Image du couple -> Le reflet fabrique une fausse union amoureuse -> le reflet donne l’image d’un couple, mais cette image est fausse : elle sert seulement à rendre Camille jalouse",
-        "id": "06-c020"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Il jette sa bague dans l’eau » (l. 35), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Didascalie centrale -> Geste symbolique : il attaque le lien avec Camille -> Perdican fait semblant de rompre avec Camille devant Rosette, mais le vrai but est de blesser Camille par un geste spectaculaire",
-        "id": "06-c021"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « notre image a disparu ; l’eau qui s’était troublée » (l. 36-37), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Champ lexical du trouble -> L’eau reflète le trouble amoureux provoqué par Perdican -> l’eau troublée représente le désordre créé par Perdican : sa déclaration ne crée pas de l’amour, mais de la confusion et de la souffrance",
-        "id": "06-c022"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « de grands cercles noirs » (l. 38), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Image inquiétante -> Le jeu amoureux prend une couleur sombre -> cette image annonce que la manipulation amoureuse devient dangereuse et qu’elle peut mener au drame",
-        "id": "06-c023"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Il a jeté ma bague dans l’eau » (l. 42), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Réaction de Camille -> La manipulation fonctionne : Camille est blessée -> la réaction de Camille prouve que Perdican a atteint sa vraie cible : Rosette n’est qu’un moyen pour toucher Camille",
-        "id": "06-c024"
-      },
-      {
-        "kind": "résumé",
-        "movement": 3,
-        "question": "Que se passe-t-il dans le mouvement 3 ?",
-        "answer": "Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.",
-        "id": "06-c025"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 3,
-        "question": "Quel est le titre du mouvement 3 ?",
-        "answer": "UNE DEFINITION LYRIQUE MAIS MANIPULATRICE DE L’AMOUR",
-        "id": "06-c026"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 3,
-        "question": "Quelle est l’idée directrice du mouvement 3 (Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.) ?",
-        "answer": "Perdican parle magnifiquement d’amour, mais son discours reste calculé.",
-        "id": "06-c027"
-      },
-      {
-        "kind": "procédés",
-        "movement": 3,
-        "question": "Dans le mouvement 3 (Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.), quels procédés importants faut-il retenir ?",
-        "answer": "Question répétée · Cadre naturel · Serment solennel · Opposition à Camille · Valorisation de Rosette · Réponse naïve",
-        "id": "06-c028"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Sais-tu ce que c’est que l’amour, Rosette ? » (l. 43), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Question répétée -> Perdican se place en professeur de l’amour -> Perdican domine Rosette par la parole : il lui explique l’amour alors qu’il est lui-même en train de la tromper",
-        "id": "06-c029"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Le vent se tait ; la pluie du matin roule en perles » (l. 44), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Cadre naturel -> L’amour est associé à une nature poétique et vivante -> le décor rend la déclaration belle et lyrique, mais cette beauté cache une intention manipulatrice",
-        "id": "06-c030"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Par la lumière du ciel, par le soleil que voilà, je t’aime » (l. 45), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Serment solennel -> Perdican donne une grandeur sacrée à une parole fausse -> le serment paraît noble, mais il devient cruel car Perdican utilise un langage sacré pour rendre crédible un mensonge",
-        "id": "06-c031"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Tu ne veux pas te faire religieuse » (l. 47-48), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Opposition à Camille -> Rosette sert de contraste avec Camille -> Perdican ne valorise Rosette que pour l’opposer à Camille : cela montre que sa déclaration reste centrée sur Camille",
-        "id": "06-c032"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « jeune et belle dans les bras d’un jeune homme » (l. 4_-49), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Valorisation de Rosette -> Perdican oppose jeunesse vivante et refus religieux -> Perdican flatte Rosette pour construire une image séduisante de l’amour, mais cette valorisation sert surtout à provoquer Camille",
-        "id": "06-c033"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « je vous aimerai comme je pourrai » (l. 50), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Réponse naïve -> Rosette est sincère et fragile : cela rend la scène cruelle -> Rosette croit à la déclaration, donc la manipulation devient vraiment cruelle : elle est innocente face au calcul de Perdican",
-        "id": "06-c034"
-      },
-      {
-        "kind": "conclusion",
-        "question": "Quel est le bilan du texte ?",
-        "answer": "Musset montre que les mots de l’amour peuvent devenir dangereux : Perdican utilise Rosette pour atteindre Camille, et cette manipulation annonce le drame final.",
-        "id": "06-c035"
-      },
-      {
-        "kind": "conclusion",
-        "question": "Quelle ouverture peut-on faire ?",
-        "answer": "On ne badine pas avec l’amour, acte III, scène 8 · Rosette mourra après avoir compris qu’elle a été utilisée dans ce jeu amoureux.",
-        "id": "06-c036"
-      }
-    ]
-  },
-  {
     "id": "01",
     "title": "Roman - Arthur Rimbaud",
     "author": "Arthur Rimbaud, XIXe siècle, poète précoce et révolté",
@@ -819,37 +24,37 @@
             "procedure": "Présent de vérité générale",
             "citation": "On n’est pas sérieux, quand on a dix-sept ans",
             "line": "1",
-            "interpretation": "Expérience universelle de la jeunesse -> Rimbaud présente l’adolescence comme un âge naturellement léger, ce qui lui permet déjà de se moquer de l’amour trop sérieux des jeunes"
+            "interpretation": "Expérience universelle de la jeunesse"
           },
           {
             "procedure": "Pronom indéfini",
             "citation": "On",
             "line": "1",
-            "interpretation": "Le poète ne parle pas seulement de lui : il inclut tous les adolescents -> le pronom généralise l’expérience amoureuse : Rimbaud ne raconte pas un grand amour unique, mais une attitude adolescente commune et donc un peu ridicule"
+            "interpretation": "Le poète ne parle pas seulement de lui : il inclut tous les adolescents"
           },
           {
             "procedure": "Rejet du monde urbain",
             "citation": "foin des bocks et de la limonade",
             "line": "2",
-            "interpretation": "Le jeune homme quitte les cafés et les habitudes -> le départ des cafés montre une envie de vivre une scène poétique, mais le vocabulaire familier garde une distance ironique"
+            "interpretation": "Le jeune homme quitte les cafés et les habitudes"
           },
           {
             "procedure": "Changement de décor",
             "citation": "On va sous les tilleuls verts de la promenade",
             "line": "4",
-            "interpretation": "La nature remplace le café bruyant -> le décor naturel crée une ambiance romantique, mais Rimbaud le présente comme un passage presque automatique de l’adolescent amoureux"
+            "interpretation": "La nature remplace le café bruyant"
           },
           {
             "procedure": "Sensations",
             "citation": "Les tilleuls sentent bon ; L’air est parfois si doux",
             "line": "5",
-            "interpretation": "La nature touche les sens : odorat, toucher, vue -> les sensations rendent le jeune homme disponible à l’amour, mais elles montrent aussi que son lyrisme naît surtout d’une ivresse passagère"
+            "interpretation": "La nature touche les sens : odorat, toucher, vue"
           },
           {
             "procedure": "Mélange ville/nature",
             "citation": "parfums de vigne et parfums de bière",
             "line": "8",
-            "interpretation": "Le poète reste entre deux univers -> le mélange entre parfum poétique et odeur de bière casse le lyrisme pur : Rimbaud rend la scène amoureuse plus drôle et plus concrète"
+            "interpretation": "Le poète reste entre deux univers"
           }
         ]
       },
@@ -863,37 +68,37 @@
             "procedure": "Présentatif",
             "citation": "Voilà qu’on aperçoit",
             "line": "9",
-            "interpretation": "Effet de tableau : le lecteur voit la scène -> Rimbaud donne l’impression d’une scène romantique qui apparaît soudainement, mais cette mise en scène semble presque trop préparée, donc ironique"
+            "interpretation": "Effet de tableau : le lecteur voit la scène"
           },
           {
             "procedure": "Répétition du petit",
             "citation": "tout petit chiffon ; petite branche ; petite",
             "line": "9",
-            "interpretation": "La nature est décrite avec naïveté et fantaisie -> la répétition rend le regard adolescent enfantin : Rimbaud se moque doucement de cette manière naïve d’embellir le monde"
+            "interpretation": "La nature est décrite avec naïveté et fantaisie"
           },
           {
             "procedure": "Exclamations nominales",
             "citation": "Nuit de juin ! Dix-sept ans !",
             "line": "13",
-            "interpretation": "Montée de l’enthousiasme adolescent -> les exclamations imitent l’élan lyrique amoureux, mais leur simplicité les rend aussi excessives et amusantes"
+            "interpretation": "Montée de l’enthousiasme adolescent"
           },
           {
             "procedure": "Tournure passive",
             "citation": "On se laisse griser",
             "line": "13",
-            "interpretation": "Le jeune homme se laisse porter par les sensations -> l’adolescent ne maîtrise pas ses émotions : il se laisse emporter par l’ambiance, ce qui rend son amour moins profond que passager"
+            "interpretation": "Le jeune homme se laisse porter par les sensations"
           },
           {
             "procedure": "Métaphore",
             "citation": "La sève est du champagne",
             "line": "14",
-            "interpretation": "La nature devient ivresse -> la métaphore transforme la nature en boisson festive, ce qui rend le lyrisme amoureux joyeux mais aussi un peu exagéré"
+            "interpretation": "La nature devient ivresse"
           },
           {
             "procedure": "Comparaison animale",
             "citation": "un baiser / Qui palpite là, comme une petite bête",
             "line": "14-15",
-            "interpretation": "Le désir devient vivant, presque instinctif -> le désir amoureux est ramené à quelque chose de physique et instinctif : Rimbaud casse l’image noble du grand amour romantique"
+            "interpretation": "Le désir devient vivant, presque instinctif"
           }
         ]
       },
@@ -907,37 +112,37 @@
             "procedure": "Néologisme",
             "citation": "Le cœur fou robinsonne",
             "line": "17",
-            "interpretation": "Le cœur vagabonde librement dans l’amour et les romans -> le mot inventé donne une image amusante du cœur adolescent : il part à l’aventure comme dans un roman, ce qui ridiculise légèrement le lyrisme amoureux"
+            "interpretation": "Le cœur vagabonde librement dans l’amour et les romans"
           },
           {
             "procedure": "Portrait simple",
             "citation": "une demoiselle aux petits airs charmants",
             "line": "19",
-            "interpretation": "Rencontre fraîche, spontanée, presque cliché -> la jeune fille est décrite comme un cliché amoureux, ce qui montre que l’adolescent projette vite du romanesque sur une rencontre banale"
+            "interpretation": "Rencontre fraîche, spontanée, presque cliché"
           },
           {
             "procedure": "Contraste de décor",
             "citation": "pâle réverbère / faux col effrayant de son père",
             "line": "20",
-            "interpretation": "La lumière romantique est encadrée par le monde bourgeois -> le réverbère pourrait créer une scène romantique, mais la présence du père et du faux col casse le charme et introduit le comique"
+            "interpretation": "La lumière romantique est encadrée par le monde bourgeois"
           },
           {
             "procedure": "Ironie sociale",
             "citation": "faux col effrayant",
             "line": "20",
-            "interpretation": "Rimbaud se moque des apparences bourgeoises -> Rimbaud ridiculise le cadre bourgeois autour de la jeune fille, ce qui empêche la scène d’être totalement lyrique"
+            "interpretation": "Rimbaud se moque des apparences bourgeoises"
           },
           {
             "procedure": "Allitération",
             "citation": "faisant trotter ses petites bottines",
             "line": "22",
-            "interpretation": "Les sons imitent les pas de la demoiselle -> le rythme donne de la vivacité à la scène, mais les “petites bottines” rendent aussi la jeune fille presque comique et légère"
+            "interpretation": "Les sons imitent les pas de la demoiselle"
           },
           {
             "procedure": "Référence lyrique ironique",
             "citation": "meurent les cavatines",
             "line": "24",
-            "interpretation": "Les clichés romantiques disparaissent devant l’émotion réelle -> Rimbaud évoque le lyrisme amoureux pour mieux le faire disparaître : il montre que l’amour adolescent est plein de clichés, mais qu’il ne les prend pas au sérieux"
+            "interpretation": "Les clichés romantiques disparaissent devant l’émotion réelle"
           }
         ]
       },
@@ -951,37 +156,37 @@
             "procedure": "Anaphore",
             "citation": "Vous êtes amoureux",
             "line": "25",
-            "interpretation": "Effet de sentence : le coup de foudre tombe brutalement -> l’anaphore transforme l’amour en constat rapide et presque mécanique : Rimbaud se moque du coup de foudre adolescent"
+            "interpretation": "Effet de sentence : le coup de foudre tombe brutalement"
           },
           {
             "procedure": "Jeu des pronoms",
             "citation": "Vous",
             "line": "25",
-            "interpretation": "Le poète se moque de lui-même et implique le lecteur -> en utilisant “vous”, Rimbaud met à distance son propre souvenir et invite le lecteur à rire de cette expérience commune"
+            "interpretation": "Le poète se moque de lui-même et implique le lecteur"
           },
           {
             "procedure": "Opposition rapide",
             "citation": "Vos sonnets la font rire / Tous vos amis s’en vont",
             "line": "26-27",
-            "interpretation": "L’amour provoque ridicule et isolement -> les poèmes amoureux ne séduisent pas vraiment : ils rendent l’adolescent ridicule, ce qui critique le lyrisme amoureux"
+            "interpretation": "L’amour provoque ridicule et isolement"
           },
           {
             "procedure": "Périphrase",
             "citation": "l’adorée",
             "line": "28",
-            "interpretation": "Parodie de l’amour courtois et de l’idéalisation -> le mot exagère l’idéalisation de la jeune fille, donc Rimbaud se moque de la tendance adolescente à transformer une rencontre en grand amour"
+            "interpretation": "Parodie de l’amour courtois et de l’idéalisation"
           },
           {
             "procedure": "Effet circulaire",
             "citation": "Ce soir-là",
             "line": "29",
-            "interpretation": "Retour au début : la boucle se referme -> le retour au point de départ montre que l’amour adolescent est passager : après l’émotion, la vie légère recommence"
+            "interpretation": "Retour au début : la boucle se referme"
           },
           {
             "procedure": "Reprise finale",
             "citation": "On n’est pas sérieux, quand on a dix-sept ans",
             "line": "31",
-            "interpretation": "L’amour adolescent est intense mais passager -> la reprise confirme la moquerie tendre de Rimbaud : l’amour paraît grand sur le moment, mais il reste une expérience légère de jeunesse"
+            "interpretation": "L’amour adolescent est intense mais passager"
           }
         ]
       }
@@ -990,7 +195,7 @@
       {
         "kind": "intro",
         "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Arthur Rimbaud, XIXe siècle, poète précoce et révolté",
+        "answer": "Arthur Rimbaud, XIXe siècle, poète précoce et révolté. Il écrit les Cahiers de Douai à 16 ans, en 1870.",
         "id": "01-c001"
       },
       {
@@ -1043,42 +248,42 @@
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « On n’est pas sérieux, quand on a dix-sept ans » (l. 1), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Présent de vérité générale -> Expérience universelle de la jeunesse -> Rimbaud présente l’adolescence comme un âge naturellement léger, ce qui lui permet déjà de se moquer de l’amour trop sérieux des jeunes",
+        "answer": "Présent de vérité générale -> Expérience universelle de la jeunesse",
         "id": "01-c009"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « On » (l. 1), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Pronom indéfini -> Le poète ne parle pas seulement de lui : il inclut tous les adolescents -> le pronom généralise l’expérience amoureuse : Rimbaud ne raconte pas un grand amour unique, mais une attitude adolescente commune et donc un peu ridicule",
+        "answer": "Pronom indéfini -> Le poète ne parle pas seulement de lui : il inclut tous les adolescents",
         "id": "01-c010"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « foin des bocks et de la limonade » (l. 2), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Rejet du monde urbain -> Le jeune homme quitte les cafés et les habitudes -> le départ des cafés montre une envie de vivre une scène poétique, mais le vocabulaire familier garde une distance ironique",
+        "answer": "Rejet du monde urbain -> Le jeune homme quitte les cafés et les habitudes",
         "id": "01-c011"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « On va sous les tilleuls verts de la promenade » (l. 4), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Changement de décor -> La nature remplace le café bruyant -> le décor naturel crée une ambiance romantique, mais Rimbaud le présente comme un passage presque automatique de l’adolescent amoureux",
+        "answer": "Changement de décor -> La nature remplace le café bruyant",
         "id": "01-c012"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « Les tilleuls sentent bon ; L’air est parfois si doux » (l. 5), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Sensations -> La nature touche les sens : odorat, toucher, vue -> les sensations rendent le jeune homme disponible à l’amour, mais elles montrent aussi que son lyrisme naît surtout d’une ivresse passagère",
+        "answer": "Sensations -> La nature touche les sens : odorat, toucher, vue",
         "id": "01-c013"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « parfums de vigne et parfums de bière » (l. 8), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Mélange ville/nature -> Le poète reste entre deux univers -> le mélange entre parfum poétique et odeur de bière casse le lyrisme pur : Rimbaud rend la scène amoureuse plus drôle et plus concrète",
+        "answer": "Mélange ville/nature -> Le poète reste entre deux univers",
         "id": "01-c014"
       },
       {
@@ -1113,42 +318,42 @@
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « Voilà qu’on aperçoit » (l. 9), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Présentatif -> Effet de tableau : le lecteur voit la scène -> Rimbaud donne l’impression d’une scène romantique qui apparaît soudainement, mais cette mise en scène semble presque trop préparée, donc ironique",
+        "answer": "Présentatif -> Effet de tableau : le lecteur voit la scène",
         "id": "01-c019"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « tout petit chiffon ; petite branche ; petite » (l. 9), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Répétition du petit -> La nature est décrite avec naïveté et fantaisie -> la répétition rend le regard adolescent enfantin : Rimbaud se moque doucement de cette manière naïve d’embellir le monde",
+        "answer": "Répétition du petit -> La nature est décrite avec naïveté et fantaisie",
         "id": "01-c020"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « Nuit de juin ! Dix-sept ans ! » (l. 13), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Exclamations nominales -> Montée de l’enthousiasme adolescent -> les exclamations imitent l’élan lyrique amoureux, mais leur simplicité les rend aussi excessives et amusantes",
+        "answer": "Exclamations nominales -> Montée de l’enthousiasme adolescent",
         "id": "01-c021"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « On se laisse griser » (l. 13), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Tournure passive -> Le jeune homme se laisse porter par les sensations -> l’adolescent ne maîtrise pas ses émotions : il se laisse emporter par l’ambiance, ce qui rend son amour moins profond que passager",
+        "answer": "Tournure passive -> Le jeune homme se laisse porter par les sensations",
         "id": "01-c022"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « La sève est du champagne » (l. 14), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Métaphore -> La nature devient ivresse -> la métaphore transforme la nature en boisson festive, ce qui rend le lyrisme amoureux joyeux mais aussi un peu exagéré",
+        "answer": "Métaphore -> La nature devient ivresse",
         "id": "01-c023"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « un baiser / Qui palpite là, comme une petite bête » (l. 14-15), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Comparaison animale -> Le désir devient vivant, presque instinctif -> le désir amoureux est ramené à quelque chose de physique et instinctif : Rimbaud casse l’image noble du grand amour romantique",
+        "answer": "Comparaison animale -> Le désir devient vivant, presque instinctif",
         "id": "01-c024"
       },
       {
@@ -1183,42 +388,42 @@
         "kind": "analyse",
         "movement": 3,
         "question": "Pour « Le cœur fou robinsonne » (l. 17), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Néologisme -> Le cœur vagabonde librement dans l’amour et les romans -> le mot inventé donne une image amusante du cœur adolescent : il part à l’aventure comme dans un roman, ce qui ridiculise légèrement le lyrisme amoureux",
+        "answer": "Néologisme -> Le cœur vagabonde librement dans l’amour et les romans",
         "id": "01-c029"
       },
       {
         "kind": "analyse",
         "movement": 3,
         "question": "Pour « une demoiselle aux petits airs charmants » (l. 19), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Portrait simple -> Rencontre fraîche, spontanée, presque cliché -> la jeune fille est décrite comme un cliché amoureux, ce qui montre que l’adolescent projette vite du romanesque sur une rencontre banale",
+        "answer": "Portrait simple -> Rencontre fraîche, spontanée, presque cliché",
         "id": "01-c030"
       },
       {
         "kind": "analyse",
         "movement": 3,
         "question": "Pour « pâle réverbère / faux col effrayant de son père » (l. 20), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Contraste de décor -> La lumière romantique est encadrée par le monde bourgeois -> le réverbère pourrait créer une scène romantique, mais la présence du père et du faux col casse le charme et introduit le comique",
+        "answer": "Contraste de décor -> La lumière romantique est encadrée par le monde bourgeois",
         "id": "01-c031"
       },
       {
         "kind": "analyse",
         "movement": 3,
         "question": "Pour « faux col effrayant » (l. 20), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Ironie sociale -> Rimbaud se moque des apparences bourgeoises -> Rimbaud ridiculise le cadre bourgeois autour de la jeune fille, ce qui empêche la scène d’être totalement lyrique",
+        "answer": "Ironie sociale -> Rimbaud se moque des apparences bourgeoises",
         "id": "01-c032"
       },
       {
         "kind": "analyse",
         "movement": 3,
         "question": "Pour « faisant trotter ses petites bottines » (l. 22), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Allitération -> Les sons imitent les pas de la demoiselle -> le rythme donne de la vivacité à la scène, mais les “petites bottines” rendent aussi la jeune fille presque comique et légère",
+        "answer": "Allitération -> Les sons imitent les pas de la demoiselle",
         "id": "01-c033"
       },
       {
         "kind": "analyse",
         "movement": 3,
         "question": "Pour « meurent les cavatines » (l. 24), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Référence lyrique ironique -> Les clichés romantiques disparaissent devant l’émotion réelle -> Rimbaud évoque le lyrisme amoureux pour mieux le faire disparaître : il montre que l’amour adolescent est plein de clichés, mais qu’il ne les prend pas au sérieux",
+        "answer": "Référence lyrique ironique -> Les clichés romantiques disparaissent devant l’émotion réelle",
         "id": "01-c034"
       },
       {
@@ -1253,42 +458,42 @@
         "kind": "analyse",
         "movement": 4,
         "question": "Pour « Vous êtes amoureux » (l. 25), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Anaphore -> Effet de sentence : le coup de foudre tombe brutalement -> l’anaphore transforme l’amour en constat rapide et presque mécanique : Rimbaud se moque du coup de foudre adolescent",
+        "answer": "Anaphore -> Effet de sentence : le coup de foudre tombe brutalement",
         "id": "01-c039"
       },
       {
         "kind": "analyse",
         "movement": 4,
         "question": "Pour « Vous » (l. 25), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Jeu des pronoms -> Le poète se moque de lui-même et implique le lecteur -> en utilisant “vous”, Rimbaud met à distance son propre souvenir et invite le lecteur à rire de cette expérience commune",
+        "answer": "Jeu des pronoms -> Le poète se moque de lui-même et implique le lecteur",
         "id": "01-c040"
       },
       {
         "kind": "analyse",
         "movement": 4,
         "question": "Pour « Vos sonnets la font rire / Tous vos amis s’en vont » (l. 26-27), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Opposition rapide -> L’amour provoque ridicule et isolement -> les poèmes amoureux ne séduisent pas vraiment : ils rendent l’adolescent ridicule, ce qui critique le lyrisme amoureux",
+        "answer": "Opposition rapide -> L’amour provoque ridicule et isolement",
         "id": "01-c041"
       },
       {
         "kind": "analyse",
         "movement": 4,
         "question": "Pour « l’adorée » (l. 28), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Périphrase -> Parodie de l’amour courtois et de l’idéalisation -> le mot exagère l’idéalisation de la jeune fille, donc Rimbaud se moque de la tendance adolescente à transformer une rencontre en grand amour",
+        "answer": "Périphrase -> Parodie de l’amour courtois et de l’idéalisation",
         "id": "01-c042"
       },
       {
         "kind": "analyse",
         "movement": 4,
         "question": "Pour « Ce soir-là » (l. 29), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Effet circulaire -> Retour au début : la boucle se referme -> le retour au point de départ montre que l’amour adolescent est passager : après l’émotion, la vie légère recommence",
+        "answer": "Effet circulaire -> Retour au début : la boucle se referme",
         "id": "01-c043"
       },
       {
         "kind": "analyse",
         "movement": 4,
         "question": "Pour « On n’est pas sérieux, quand on a dix-sept ans » (l. 31), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Reprise finale -> L’amour adolescent est intense mais passager -> la reprise confirme la moquerie tendre de Rimbaud : l’amour paraît grand sur le moment, mais il reste une expérience légère de jeunesse",
+        "answer": "Reprise finale -> L’amour adolescent est intense mais passager",
         "id": "01-c044"
       },
       {
@@ -1330,37 +535,37 @@
             "procedure": "Subordonnant répété",
             "citation": "Tandis que",
             "line": "1",
-            "interpretation": "Les massacres durent en même temps que l’indifférence religieuse -> la répétition met en parallèle la guerre et l’indifférence de Dieu, ce qui crée l’indignation contre deux scandales en même temps"
+            "interpretation": "Les massacres durent en même temps que l’indifférence religieuse"
           },
           {
             "procedure": "Métaphore péjorative",
             "citation": "crachats rouges de la mitraille",
             "line": "1",
-            "interpretation": "Les tirs sont sales, violents, liés au sang -> la guerre est présentée comme quelque chose de répugnant et brutal, ce qui pousse le lecteur à la rejeter"
+            "interpretation": "Les tirs sont sales, violents, liés au sang"
           },
           {
             "procedure": "Opposition de couleurs",
             "citation": "rouges / ciel bleu",
             "line": "1-2",
-            "interpretation": "La guerre souille la beauté paisible du ciel -> le rouge du sang détruit la beauté du ciel bleu : Rimbaud montre que la guerre abîme un monde qui devrait être paisible"
+            "interpretation": "La guerre souille la beauté paisible du ciel"
           },
           {
             "procedure": "Indifférence des puissants",
             "citation": "près du Roi qui les raille",
             "line": "3",
-            "interpretation": "Les rois méprisent les soldats qui meurent pour eux -> le roi apparaît cruel et méprisant, ce qui suscite l’indignation contre les chefs qui profitent de la guerre sans souffrir"
+            "interpretation": "Les rois méprisent les soldats qui meurent pour eux"
           },
           {
             "procedure": "Hyperbole et réduction",
             "citation": "cent milliers d’hommes un tas fumant",
             "line": "6",
-            "interpretation": "Des vies humaines deviennent une masse sans identité -> l’hyperbole insiste sur l’ampleur du massacre, tandis que “tas” déshumanise les soldats : Rimbaud montre l’horreur absurde de la guerre"
+            "interpretation": "Des vies humaines deviennent une masse sans identité"
           },
           {
             "procedure": "Apostrophe pathétique",
             "citation": "Pauvres morts !",
             "line": "7",
-            "interpretation": "La voix du poète exprime compassion et révolte -> l’apostrophe fait entendre directement la pitié du poète, ce qui pousse le lecteur à partager son indignation"
+            "interpretation": "La voix du poète exprime compassion et révolte"
           }
         ]
       },
@@ -1374,37 +579,37 @@
             "procedure": "Tiret de rupture",
             "citation": "Il est un Dieu",
             "line": "9",
-            "interpretation": "Passage brutal du champ de bataille au monde religieux -> la rupture fait passer de la violence de la guerre au scandale religieux : Rimbaud montre que Dieu reste séparé de la souffrance humaine"
+            "interpretation": "Passage brutal du champ de bataille au monde religieux"
           },
           {
             "procedure": "Verbe choquant",
             "citation": "qui rit",
             "line": "9",
-            "interpretation": "Dieu semble joyeux malgré les morts -> ce rire rend Dieu indifférent, presque cruel, ce qui provoque l’indignation contre une religion insensible au malheur"
+            "interpretation": "Dieu semble joyeux malgré les morts"
           },
           {
             "procedure": "Énumération de richesses",
             "citation": "nappes damassées ; encens ; grands calices d’or",
             "line": "9-10",
-            "interpretation": "L’Église est associée au luxe -> l’accumulation de richesses oppose le confort religieux à la misère des victimes, ce qui dénonce l’hypocrisie de l’Église"
+            "interpretation": "L’Église est associée au luxe"
           },
           {
             "procedure": "Image de confort",
             "citation": "s’endort",
             "line": "11",
-            "interpretation": "Dieu apparaît comme un personnage repu et passif -> Dieu ne répond pas à la souffrance : son sommeil symbolise l’indifférence religieuse face à la guerre"
+            "interpretation": "Dieu apparaît comme un personnage repu et passif"
           },
           {
             "procedure": "Contraste social",
             "citation": "mères, ramassées / Dans l’angoisse",
             "line": "12",
-            "interpretation": "Les pauvres mères souffrent pendant que l’Église possède l’or -> le contraste entre les mères pauvres et l’Église riche renforce la dénonciation d’une religion qui reçoit l’argent des souffrants sans les sauver"
+            "interpretation": "Les pauvres mères souffrent pendant que l’Église possède l’or"
           },
           {
             "procedure": "Détail pathétique",
             "citation": "un gros sou lié dans leur mouchoir",
             "line": "14",
-            "interpretation": "Les pauvres donnent encore à une institution riche -> ce petit don rend l’injustice encore plus révoltante : les plus pauvres nourrissent une religion riche et indifférente"
+            "interpretation": "Les pauvres donnent encore à une institution riche"
           }
         ]
       }
@@ -1413,7 +618,7 @@
       {
         "kind": "intro",
         "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Arthur Rimbaud, XIXe siècle, poète adolescent révolté",
+        "answer": "Arthur Rimbaud, XIXe siècle, poète adolescent révolté. Il écrit ce sonnet pendant la guerre franco-prussienne de 1870.",
         "id": "02-c001"
       },
       {
@@ -1466,42 +671,42 @@
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « Tandis que » (l. 1), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Subordonnant répété -> Les massacres durent en même temps que l’indifférence religieuse -> la répétition met en parallèle la guerre et l’indifférence de Dieu, ce qui crée l’indignation contre deux scandales en même temps",
+        "answer": "Subordonnant répété -> Les massacres durent en même temps que l’indifférence religieuse",
         "id": "02-c009"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « crachats rouges de la mitraille » (l. 1), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Métaphore péjorative -> Les tirs sont sales, violents, liés au sang -> la guerre est présentée comme quelque chose de répugnant et brutal, ce qui pousse le lecteur à la rejeter",
+        "answer": "Métaphore péjorative -> Les tirs sont sales, violents, liés au sang",
         "id": "02-c010"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « rouges / ciel bleu » (l. 1-2), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Opposition de couleurs -> La guerre souille la beauté paisible du ciel -> le rouge du sang détruit la beauté du ciel bleu : Rimbaud montre que la guerre abîme un monde qui devrait être paisible",
+        "answer": "Opposition de couleurs -> La guerre souille la beauté paisible du ciel",
         "id": "02-c011"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « près du Roi qui les raille » (l. 3), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Indifférence des puissants -> Les rois méprisent les soldats qui meurent pour eux -> le roi apparaît cruel et méprisant, ce qui suscite l’indignation contre les chefs qui profitent de la guerre sans souffrir",
+        "answer": "Indifférence des puissants -> Les rois méprisent les soldats qui meurent pour eux",
         "id": "02-c012"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « cent milliers d’hommes un tas fumant » (l. 6), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Hyperbole et réduction -> Des vies humaines deviennent une masse sans identité -> l’hyperbole insiste sur l’ampleur du massacre, tandis que “tas” déshumanise les soldats : Rimbaud montre l’horreur absurde de la guerre",
+        "answer": "Hyperbole et réduction -> Des vies humaines deviennent une masse sans identité",
         "id": "02-c013"
       },
       {
         "kind": "analyse",
         "movement": 1,
         "question": "Pour « Pauvres morts ! » (l. 7), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Apostrophe pathétique -> La voix du poète exprime compassion et révolte -> l’apostrophe fait entendre directement la pitié du poète, ce qui pousse le lecteur à partager son indignation",
+        "answer": "Apostrophe pathétique -> La voix du poète exprime compassion et révolte",
         "id": "02-c014"
       },
       {
@@ -1536,42 +741,42 @@
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « Il est un Dieu » (l. 9), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Tiret de rupture -> Passage brutal du champ de bataille au monde religieux -> la rupture fait passer de la violence de la guerre au scandale religieux : Rimbaud montre que Dieu reste séparé de la souffrance humaine",
+        "answer": "Tiret de rupture -> Passage brutal du champ de bataille au monde religieux",
         "id": "02-c019"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « qui rit » (l. 9), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Verbe choquant -> Dieu semble joyeux malgré les morts -> ce rire rend Dieu indifférent, presque cruel, ce qui provoque l’indignation contre une religion insensible au malheur",
+        "answer": "Verbe choquant -> Dieu semble joyeux malgré les morts",
         "id": "02-c020"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « nappes damassées ; encens ; grands calices d’or » (l. 9-10), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Énumération de richesses -> L’Église est associée au luxe -> l’accumulation de richesses oppose le confort religieux à la misère des victimes, ce qui dénonce l’hypocrisie de l’Église",
+        "answer": "Énumération de richesses -> L’Église est associée au luxe",
         "id": "02-c021"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « s’endort » (l. 11), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Image de confort -> Dieu apparaît comme un personnage repu et passif -> Dieu ne répond pas à la souffrance : son sommeil symbolise l’indifférence religieuse face à la guerre",
+        "answer": "Image de confort -> Dieu apparaît comme un personnage repu et passif",
         "id": "02-c022"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « mères, ramassées / Dans l’angoisse » (l. 12), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Contraste social -> Les pauvres mères souffrent pendant que l’Église possède l’or -> le contraste entre les mères pauvres et l’Église riche renforce la dénonciation d’une religion qui reçoit l’argent des souffrants sans les sauver",
+        "answer": "Contraste social -> Les pauvres mères souffrent pendant que l’Église possède l’or",
         "id": "02-c023"
       },
       {
         "kind": "analyse",
         "movement": 2,
         "question": "Pour « un gros sou lié dans leur mouchoir » (l. 14), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Détail pathétique -> Les pauvres donnent encore à une institution riche -> ce petit don rend l’injustice encore plus révoltante : les plus pauvres nourrissent une religion riche et indifférente",
+        "answer": "Détail pathétique -> Les pauvres donnent encore à une institution riche",
         "id": "02-c024"
       },
       {
@@ -2366,6 +1571,801 @@
         "question": "Quelle ouverture peut-on faire ?",
         "answer": "L’Huître, Francis Ponge · Ponge transforme aussi un objet banal en petit monde poétique et matériel.",
         "id": "04-c035"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "title": "On ne badine pas avec l’amour - Acte I, scène 2",
+    "author": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
+    "work": "Deux cousins, Perdican et Camille, se retrouvent au château. Leur amour est empêché par l’orgueil, la religion et les jeux de parole.",
+    "family": "Musset · On ne badine pas avec l'amour",
+    "situation": "Scène d’exposition : retrouvailles publiques entre Perdican et Camille. Le Baron veut les rapprocher pour préparer leur mariage.",
+    "problem": "Comment cette scène d’exposition annonce-t-elle l’intrigue et l’opposition entre Perdican et Camille ?",
+    "bilan": "La scène expose l’intrigue : le mariage voulu par le Baron paraît impossible car Camille et Perdican sont opposés dans leurs émotions, leurs valeurs et leur rapport au monde.",
+    "opening": "On ne badine pas avec l’amour, acte III, scène 6 · Perdican utilisera ensuite Rosette pour se venger de la froideur de Camille.",
+    "transcription": "Le baron\n(Perdican entre d’un côté, Camille de l’autre.) Bonjour, mes enfants ; bonjour, ma chère Camille, mon\ncher Perdican ! embrassez-moi, et embrassez-vous.\nPerdican\nBonjour, mon père, ma sœur bien-aimée ! Quel bonheur ! que je suis heureux !\nCamille\nMon père et mon cousin, je vous salue.\nPerdican\nComme te voilà grande, Camille ! et belle comme le jour.\nLe Baron\nQuand as-tu quitté Paris, Perdican ?\nPerdican\nMercredi, je crois, ou mardi. Comme te voilà métamorphosée en femme ! Je suis donc un homme,\nmoi ? Il me semble que c’est hier que je t’ai vue pas plus haute que cela.\nLe Baron\nVous devez être fatigués ; la route est longue, et il fait chaud.\nPerdican\nOh ! mon Dieu, non. Regardez donc, mon père, comme Camille est jolie !\nLe Baron\nAllons, Camille, embrasse ton cousin.\nCamille\nExcusez-moi.\nLe Baron\nUn compliment vaut un baiser ; embrasse-la, Perdican.\nPerdican\nSi ma cousine recule quand je lui tends la main, je vous dirai à mon tour : Excusez-moi ; l’amour\npeut voler un baiser, mais non pas l’amitié.\nCamille\nL’amitié ni l’amour ne doivent recevoir que ce qu’ils peuvent rendre.\nLe Baron, à maître Bridaine.\nVoilà un commencement de mauvais augure, hé ?\n\nMaître Bridaine, au baron.\nTrop de pudeur est sans doute un défaut ; mais le mariage lève bien des scrupules.\nLe Baron, à maître Bridaine.\nJe suis choqué, — blessé. — Cette réponse m’a déplu. — Excusez-moi ! Avez-vous vu qu’elle a fait\nmine de se signer ? — Venez ici, que je vous parle. — Cela m’est pénible au dernier point. Ce\nmoment, qui devait m’être si doux, est complètement gâté. — Je suis vexé, piqué. — Diable ! voilà qui\nest fort mauvais.\nMaître Bridaine\nDites-leur quelques mots ; les voilà qui se tournent le dos.\nLe Baron\nEh bien ! mes enfants, à quoi pensez-vous donc ? Que fais-tu là, Camille, devant cette tapisserie ?\nCamille, regardant un tableau.\nVoilà un beau portrait, mon oncle ! N’est-ce pas une grand’tante à nous ?\nLe Baron\nOui, mon enfant, c’est ta bisaïeule, — ou du moins la sœur de ton bisaïeul, — car la chère dame n’a\njamais concouru, — pour sa part, je crois, autrement qu’en prières, — à l’accroissement de la\nfamille. C’était, ma foi, une sainte femme.\nCamille\nOh ! oui, une sainte ! c’est ma grand’tante Isabelle. Comme ce costume religieux lui va bien !\nLe Baron\nEt toi, Perdican, que fais-tu là devant ce pot de fleurs ?\nPerdican\nVoilà une fleur charmante, mon père. C’est un héliotrope.\nLe Baron\nTe moques-tu ? elle est grosse comme une mouche.\nPerdican\nCette petite fleur grosse comme une mouche a bien son prix.\nMaître Bridaine\nSans doute ! le docteur a raison. Demandez-lui à quel sexe, à quelle classe elle appartient, de quels\néléments elle se forme, d’où lui viennent sa sève et sa couleur ; il vous ravira en extase en vous\ndétaillant les phénomènes de ce brin d’herbe, depuis la racine jusqu’à la fleur.\nPerdican\nJe n’en sais pas si long, mon révérend. Je trouve qu’elle sent bon, voilà tout.\n\nOn ne badine pas avec l’amour, Musset, acte I scène 2",
+    "photoPaths": [
+      "assets/photos/05-photo_page_05.jpg",
+      "assets/photos/05-photo_page_06.jpg"
+    ],
+    "movements": [
+      {
+        "number": 1,
+        "title": "DES RETROUVAILLES DECEVANTES",
+        "summary": "retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.",
+        "idea": "Les retrouvailles révèlent tout de suite une opposition entre les deux cousins.",
+        "analyses": [
+          {
+            "procedure": "Didascalie d’entrée",
+            "citation": "Perdican entre d’un côté, Camille de l’autre",
+            "line": "161-162",
+            "interpretation": "Entrées opposées -> annonce symbolique de leur opposition"
+          },
+          {
+            "procedure": "Expressions affectueuses",
+            "citation": "mes enfants ; ma chère Camille ; mon cher Perdican",
+            "line": "162-163",
+            "interpretation": "Le Baron veut créer une ambiance familiale et tendre"
+          },
+          {
+            "procedure": "Impératif",
+            "citation": "embrassez-moi, et embrassez-vous",
+            "line": "163",
+            "interpretation": "Le Baron cherche à provoquer le rapprochement amoureux"
+          },
+          {
+            "procedure": "Exclamations",
+            "citation": "Quel bonheur ! que je suis heureux !",
+            "line": "164-165",
+            "interpretation": "Perdican exprime une joie spontanée et sincère"
+          },
+          {
+            "procedure": "Réponse sèche",
+            "citation": "Mon père et mon cousin, je vous salue",
+            "line": "166",
+            "interpretation": "Camille reste froide, polie, sans émotion"
+          },
+          {
+            "procedure": "Refus bref",
+            "citation": "Excusez-moi",
+            "line": "177",
+            "interpretation": "Camille échappe au baiser et affirme déjà sa distance"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "LE REFUS DE CAMILLE",
+        "summary": "Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.",
+        "idea": "Le refus du baiser crée malaise, comique et inquiétude.",
+        "analyses": [
+          {
+            "procedure": "Pirouette du Baron",
+            "citation": "Un compliment vaut un baiser",
+            "line": "178",
+            "interpretation": "Le Baron tente de sauver la situation avec légèreté"
+          },
+          {
+            "procedure": "Syllogisme de Perdican",
+            "citation": "l’amour peut voler un baiser, mais non pas l’amitié",
+            "line": "?",
+            "interpretation": "Perdican reste courtois et évite de forcer Camille"
+          },
+          {
+            "procedure": "Présent de vérité générale",
+            "citation": "L’amitié ni l’amour ne doivent recevoir que ce qu’ils peuvent rendre",
+            "line": "?",
+            "interpretation": "Camille donne une règle froide et universelle"
+          },
+          {
+            "procedure": "Double négation",
+            "citation": "L’amitié ni l’amour",
+            "line": "182",
+            "interpretation": "Le refus concerne autant l’amour que l’amitié"
+          },
+          {
+            "procedure": "Aparté inquiet",
+            "citation": "Voilà un commencement de mauvais augure",
+            "line": "184",
+            "interpretation": "Le Baron pressent déjà l’échec du mariage"
+          },
+          {
+            "procedure": "Champ lexical de l’émotion",
+            "citation": "choqué ; blessé ; vexé ; piqué",
+            "line": "187",
+            "interpretation": "Le Baron dramatise -> effet comique"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "DEUX PERSONNAGES DIAMETRALEMENT OPPOSES",
+        "summary": "les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.",
+        "idea": "Camille et Perdican ne regardent pas le même monde.",
+        "analyses": [
+          {
+            "procedure": "Didascalie",
+            "citation": "Camille, regardant un tableau",
+            "line": "196",
+            "interpretation": "Camille se détourne de Perdican vers une image religieuse"
+          },
+          {
+            "procedure": "Exclamation religieuse",
+            "citation": "Oh ! oui, une sainte !",
+            "line": "202",
+            "interpretation": "Camille admire une figure de dévotion"
+          },
+          {
+            "procedure": "Opposition d’objets",
+            "citation": "devant cette tapisserie / devant ce pot de fleurs",
+            "line": "204",
+            "interpretation": "Le tableau renvoie au ciel, la fleur à la terre"
+          },
+          {
+            "procedure": "Lexique de la nature",
+            "citation": "une fleur charmante ; C’est un héliotrope",
+            "line": "205",
+            "interpretation": "Perdican est sensible à la beauté simple du monde"
+          },
+          {
+            "procedure": "Comparaison triviale",
+            "citation": "elle est grosse comme une mouche",
+            "line": "207",
+            "interpretation": "Le Baron ne comprend pas la sensibilité de Perdican"
+          },
+          {
+            "procedure": "Réponse simple",
+            "citation": "Je trouve qu’elle sent bon, voilà tout",
+            "line": "214-215",
+            "interpretation": "Perdican refuse le savoir compliqué : il privilégie la sensation"
+          }
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "kind": "intro",
+        "question": "Quel est l’auteur de ce texte ?",
+        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre. Pièce publiée en 1834, d’abord pensée pour être lue dans Un spectacle dans un fauteuil.",
+        "id": "05-c001"
+      },
+      {
+        "kind": "intro",
+        "question": "Que faut-il dire sur l’œuvre ?",
+        "answer": "Deux cousins, Perdican et Camille, se retrouvent au château. Leur amour est empêché par l’orgueil, la religion et les jeux de parole.",
+        "id": "05-c002"
+      },
+      {
+        "kind": "intro",
+        "question": "Quelle est la situation de l’extrait ?",
+        "answer": "Scène d’exposition : retrouvailles publiques entre Perdican et Camille. Le Baron veut les rapprocher pour préparer leur mariage.",
+        "id": "05-c003"
+      },
+      {
+        "kind": "intro",
+        "question": "Quelle est la problématique ?",
+        "answer": "Comment cette scène d’exposition annonce-t-elle l’intrigue et l’opposition entre Perdican et Camille ?",
+        "id": "05-c004"
+      },
+      {
+        "kind": "résumé",
+        "movement": 1,
+        "question": "Que se passe-t-il dans le mouvement 1 ?",
+        "answer": "retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.",
+        "id": "05-c005"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 1,
+        "question": "Quel est le titre du mouvement 1 ?",
+        "answer": "DES RETROUVAILLES DECEVANTES",
+        "id": "05-c006"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 1,
+        "question": "Quelle est l’idée directrice du mouvement 1 (retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.) ?",
+        "answer": "Les retrouvailles révèlent tout de suite une opposition entre les deux cousins.",
+        "id": "05-c007"
+      },
+      {
+        "kind": "procédés",
+        "movement": 1,
+        "question": "Dans le mouvement 1 (retrouvailles attendues comme heureuses, mais déséquilibre immédiat : Perdican est enthousiaste, Camille reste froide.), quels procédés importants faut-il retenir ?",
+        "answer": "Didascalie d’entrée · Expressions affectueuses · Impératif · Exclamations · Réponse sèche · Refus bref",
+        "id": "05-c008"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « Perdican entre d’un côté, Camille de l’autre » (l. 161-162), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Didascalie d’entrée -> Entrées opposées -> annonce symbolique de leur opposition",
+        "id": "05-c009"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « mes enfants ; ma chère Camille ; mon cher Perdican » (l. 162-163), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Expressions affectueuses -> Le Baron veut créer une ambiance familiale et tendre",
+        "id": "05-c010"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « embrassez-moi, et embrassez-vous » (l. 163), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Impératif -> Le Baron cherche à provoquer le rapprochement amoureux",
+        "id": "05-c011"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « Quel bonheur ! que je suis heureux ! » (l. 164-165), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Exclamations -> Perdican exprime une joie spontanée et sincère",
+        "id": "05-c012"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « Mon père et mon cousin, je vous salue » (l. 166), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Réponse sèche -> Camille reste froide, polie, sans émotion",
+        "id": "05-c013"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « Excusez-moi » (l. 177), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Refus bref -> Camille échappe au baiser et affirme déjà sa distance",
+        "id": "05-c014"
+      },
+      {
+        "kind": "résumé",
+        "movement": 2,
+        "question": "Que se passe-t-il dans le mouvement 2 ?",
+        "answer": "Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.",
+        "id": "05-c015"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 2,
+        "question": "Quel est le titre du mouvement 2 ?",
+        "answer": "LE REFUS DE CAMILLE",
+        "id": "05-c016"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 2,
+        "question": "Quelle est l’idée directrice du mouvement 2 (Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.) ?",
+        "answer": "Le refus du baiser crée malaise, comique et inquiétude.",
+        "id": "05-c017"
+      },
+      {
+        "kind": "procédés",
+        "movement": 2,
+        "question": "Dans le mouvement 2 (Camille refuse le baiser ; le Baron s’inquiète et la scène devient comique par ses réactions excessives.), quels procédés importants faut-il retenir ?",
+        "answer": "Pirouette du Baron · Syllogisme de Perdican · Présent de vérité générale · Double négation · Aparté inquiet · Champ lexical de l’émotion",
+        "id": "05-c018"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Un compliment vaut un baiser » (l. 178), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Pirouette du Baron -> Le Baron tente de sauver la situation avec légèreté",
+        "id": "05-c019"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « l’amour peut voler un baiser, mais non pas l’amitié » (l. ?), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Syllogisme de Perdican -> Perdican reste courtois et évite de forcer Camille",
+        "id": "05-c020"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « L’amitié ni l’amour ne doivent recevoir que ce qu’ils peuvent rendre » (l. ?), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Présent de vérité générale -> Camille donne une règle froide et universelle",
+        "id": "05-c021"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « L’amitié ni l’amour » (l. 182), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Double négation -> Le refus concerne autant l’amour que l’amitié",
+        "id": "05-c022"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Voilà un commencement de mauvais augure » (l. 184), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Aparté inquiet -> Le Baron pressent déjà l’échec du mariage",
+        "id": "05-c023"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « choqué ; blessé ; vexé ; piqué » (l. 187), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Champ lexical de l’émotion -> Le Baron dramatise -> effet comique",
+        "id": "05-c024"
+      },
+      {
+        "kind": "résumé",
+        "movement": 3,
+        "question": "Que se passe-t-il dans le mouvement 3 ?",
+        "answer": "les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.",
+        "id": "05-c025"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 3,
+        "question": "Quel est le titre du mouvement 3 ?",
+        "answer": "DEUX PERSONNAGES DIAMETRALEMENT OPPOSES",
+        "id": "05-c026"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 3,
+        "question": "Quelle est l’idée directrice du mouvement 3 (les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.) ?",
+        "answer": "Camille et Perdican ne regardent pas le même monde.",
+        "id": "05-c027"
+      },
+      {
+        "kind": "procédés",
+        "movement": 3,
+        "question": "Dans le mouvement 3 (les deux cousins apparaissent opposés : Camille attirée par la religion, Perdican par la nature et la beauté simple.), quels procédés importants faut-il retenir ?",
+        "answer": "Didascalie · Exclamation religieuse · Opposition d’objets · Lexique de la nature · Comparaison triviale · Réponse simple",
+        "id": "05-c028"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Camille, regardant un tableau » (l. 196), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Didascalie -> Camille se détourne de Perdican vers une image religieuse",
+        "id": "05-c029"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Oh ! oui, une sainte ! » (l. 202), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Exclamation religieuse -> Camille admire une figure de dévotion",
+        "id": "05-c030"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « devant cette tapisserie / devant ce pot de fleurs » (l. 204), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Opposition d’objets -> Le tableau renvoie au ciel, la fleur à la terre",
+        "id": "05-c031"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « une fleur charmante ; C’est un héliotrope » (l. 205), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Lexique de la nature -> Perdican est sensible à la beauté simple du monde",
+        "id": "05-c032"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « elle est grosse comme une mouche » (l. 207), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Comparaison triviale -> Le Baron ne comprend pas la sensibilité de Perdican",
+        "id": "05-c033"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Je trouve qu’elle sent bon, voilà tout » (l. 214-215), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Réponse simple -> Perdican refuse le savoir compliqué : il privilégie la sensation",
+        "id": "05-c034"
+      },
+      {
+        "kind": "conclusion",
+        "question": "Quel est le bilan du texte ?",
+        "answer": "La scène expose l’intrigue : le mariage voulu par le Baron paraît impossible car Camille et Perdican sont opposés dans leurs émotions, leurs valeurs et leur rapport au monde.",
+        "id": "05-c035"
+      },
+      {
+        "kind": "conclusion",
+        "question": "Quelle ouverture peut-on faire ?",
+        "answer": "On ne badine pas avec l’amour, acte III, scène 6 · Perdican utilisera ensuite Rosette pour se venger de la froideur de Camille.",
+        "id": "05-c036"
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "title": "On ne badine pas avec l’amour - Acte III, scène 6",
+    "author": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
+    "work": "Perdican et Camille s’aiment mais se blessent par orgueil. Rosette devient victime de leurs jeux amoureux.",
+    "family": "Musset · On ne badine pas avec l'amour",
+    "situation": "Perdican parle à Rosette à haute voix pour être entendu de Camille. Il met en scène une fausse déclaration.",
+    "problem": "Comment une déclaration d’amour devient-elle une manipulation cruelle ?",
+    "bilan": "Musset montre que les mots de l’amour peuvent devenir dangereux : Perdican utilise Rosette pour atteindre Camille, et cette manipulation annonce le drame final.",
+    "opening": "On ne badine pas avec l’amour, acte III, scène 8 · Rosette mourra après avoir compris qu’elle a été utilisée dans ce jeu amoureux.",
+    "transcription": "SÉQ. I, T2\nPERDICAN, à haute voix, de manière que Camille l’entende.\nJe t’aime, Rosette ; toi seule au monde tu n’as rien oublié de nos\nbeaux jours passés ; toi seule tu te souviens de la vie qui n’est plus ;\nprends ta part de ma vie nouvelle ; donne-moi ton cœur, chère\nenfant ; voilà le gage de notre amour.\nIl lui pose sa chaîne sur le cou.\nROSETTE\nVous me donnez votre chaîne d’or ?\nPERDICAN\nRegarde à présent cette bague. Lève-toi, et approchons-nous de\ncette fontaine. Nous vois-tu tous les deux, dans la source, appuyés\nl’un sur l’autre ? Vois-tu tes beaux yeux près des miens, ta main dans\nla mienne ? Regarde tout cela s’effacer. (Il jette sa bague dans l’eau.)\nRegarde comme notre image a disparu ; la voilà qui revient peu à\npeu ; l’eau qui s’était troublée reprend son équilibre ; elle tremble\nencore ; de grands cercles noirs courent à sa surface ; patience, nous\nreparaissons ; déjà je distingue de nouveau tes bras enlacés dans les\nmiens ; encore une minute, et il n’y aura plus une ride sur ton joli\nvisage ; regarde ! c’était une bague que m’avait donnée Camille.\nCAMILLE, à part.\nIl a jeté ma bague dans l’eau.\nPERDICAN\nSais-tu ce que c’est que l’amour, Rosette ? Écoute ! Le vent se tait ;\nla pluie du matin roule en perles sur les feuilles séchées que le soleil\nranime. Par la lumière du ciel, par le soleil que voilà, je t’aime. Tu veux\nbien de moi, n’est-ce pas ? On n’a pas flétri ta jeunesse ? on n’a pas\ninfiltré dans ton sang vermeil les restes d’un sang affadi¹ ? Tu ne veux\npas te faire religieuse ; te voilà jeune et belle dans les bras d’un jeune\nhomme. Ô Rosette, Rosette, sais-tu ce que c’est que l’amour ?\nROSETTE.\nHélas ! monsieur le docteur, je vous aimerai comme je pourrai.\n\nNote\n1. affadi : fade, sans vigueur.\nOn ne badine pas avec l’amour, III, 6",
+    "photoPaths": [
+      "assets/photos/06-photo_page_07.jpg"
+    ],
+    "movements": [
+      {
+        "number": 1,
+        "title": "UNE FAUSSE DECLARATION DESTINEE A CAMILLE",
+        "summary": "Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.",
+        "idea": "Perdican parle à Rosette, mais vise Camille.",
+        "analyses": [
+          {
+            "procedure": "Didascalie",
+            "citation": "à haute voix, de manière que Camille l’entende",
+            "line": "25",
+            "interpretation": "Double énonciation : Rosette écoute, mais Camille est visée"
+          },
+          {
+            "procedure": "Déclaration directe",
+            "citation": "Je t’aime, Rosette",
+            "line": "26",
+            "interpretation": "Parole apparemment simple, mais déjà piégée"
+          },
+          {
+            "procedure": "Répétition",
+            "citation": "toi seule",
+            "line": "26",
+            "interpretation": "Perdican donne à Rosette une place unique pour blesser Camille"
+          },
+          {
+            "procedure": "Nostalgie",
+            "citation": "nos beaux jours passés",
+            "line": "26-27",
+            "interpretation": "Il transforme l’enfance commune en argument amoureux"
+          },
+          {
+            "procedure": "Promesse",
+            "citation": "prends ta part de ma vie nouvelle",
+            "line": "28",
+            "interpretation": "Il fait croire à un vrai engagement"
+          },
+          {
+            "procedure": "Objet symbolique",
+            "citation": "voilà le gage de notre amour",
+            "line": "29",
+            "interpretation": "La chaîne rend la mise en scène plus crédible"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "LA BAGUE JETEE DANS L’EAU",
+        "summary": "la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.",
+        "idea": "Perdican transforme la fontaine en scène symbolique.",
+        "analyses": [
+          {
+            "procedure": "Impératifs",
+            "citation": "Regarde ; Lève-toi",
+            "line": "32",
+            "interpretation": "Perdican dirige Rosette comme un metteur en scène"
+          },
+          {
+            "procedure": "Image du couple",
+            "citation": "Nous vois-tu tous les deux, dans la source",
+            "line": "33",
+            "interpretation": "Le reflet fabrique une fausse union amoureuse"
+          },
+          {
+            "procedure": "Didascalie centrale",
+            "citation": "Il jette sa bague dans l’eau",
+            "line": "35",
+            "interpretation": "Geste symbolique : il attaque le lien avec Camille"
+          },
+          {
+            "procedure": "Champ lexical du trouble",
+            "citation": "notre image a disparu ; l’eau qui s’était troublée",
+            "line": "36-37",
+            "interpretation": "L’eau reflète le trouble amoureux provoqué par Perdican"
+          },
+          {
+            "procedure": "Image inquiétante",
+            "citation": "de grands cercles noirs",
+            "line": "38",
+            "interpretation": "Le jeu amoureux prend une couleur sombre"
+          },
+          {
+            "procedure": "Réaction de Camille",
+            "citation": "Il a jeté ma bague dans l’eau",
+            "line": "42",
+            "interpretation": "La manipulation fonctionne : Camille est blessée"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "UNE DEFINITION LYRIQUE MAIS MANIPULATRICE DE L’AMOUR",
+        "summary": "Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.",
+        "idea": "Perdican parle magnifiquement d’amour, mais son discours reste calculé.",
+        "analyses": [
+          {
+            "procedure": "Question répétée",
+            "citation": "Sais-tu ce que c’est que l’amour, Rosette ?",
+            "line": "43",
+            "interpretation": "Perdican se place en professeur de l’amour"
+          },
+          {
+            "procedure": "Cadre naturel",
+            "citation": "Le vent se tait ; la pluie du matin roule en perles",
+            "line": "44",
+            "interpretation": "L’amour est associé à une nature poétique et vivante"
+          },
+          {
+            "procedure": "Serment solennel",
+            "citation": "Par la lumière du ciel, par le soleil que voilà, je t’aime",
+            "line": "45",
+            "interpretation": "Perdican donne une grandeur sacrée à une parole fausse"
+          },
+          {
+            "procedure": "Opposition à Camille",
+            "citation": "Tu ne veux pas te faire religieuse",
+            "line": "47-48",
+            "interpretation": "Rosette sert de contraste avec Camille"
+          },
+          {
+            "procedure": "Valorisation de Rosette",
+            "citation": "jeune et belle dans les bras d’un jeune homme",
+            "line": "4_-49",
+            "interpretation": "Perdican oppose jeunesse vivante et refus religieux"
+          },
+          {
+            "procedure": "Réponse naïve",
+            "citation": "je vous aimerai comme je pourrai",
+            "line": "50",
+            "interpretation": "Rosette est sincère et fragile : cela rend la scène cruelle"
+          }
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "kind": "intro",
+        "question": "Quel est l’auteur de ce texte ?",
+        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre. Il mêle comédie, lyrisme amoureux et basculement tragique.",
+        "id": "06-c001"
+      },
+      {
+        "kind": "intro",
+        "question": "Que faut-il dire sur l’œuvre ?",
+        "answer": "Perdican et Camille s’aiment mais se blessent par orgueil. Rosette devient victime de leurs jeux amoureux.",
+        "id": "06-c002"
+      },
+      {
+        "kind": "intro",
+        "question": "Quelle est la situation de l’extrait ?",
+        "answer": "Perdican parle à Rosette à haute voix pour être entendu de Camille. Il met en scène une fausse déclaration.",
+        "id": "06-c003"
+      },
+      {
+        "kind": "intro",
+        "question": "Quelle est la problématique ?",
+        "answer": "Comment une déclaration d’amour devient-elle une manipulation cruelle ?",
+        "id": "06-c004"
+      },
+      {
+        "kind": "résumé",
+        "movement": 1,
+        "question": "Que se passe-t-il dans le mouvement 1 ?",
+        "answer": "Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.",
+        "id": "06-c005"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 1,
+        "question": "Quel est le titre du mouvement 1 ?",
+        "answer": "UNE FAUSSE DECLARATION DESTINEE A CAMILLE",
+        "id": "06-c006"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 1,
+        "question": "Quelle est l’idée directrice du mouvement 1 (Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.) ?",
+        "answer": "Perdican parle à Rosette, mais vise Camille.",
+        "id": "06-c007"
+      },
+      {
+        "kind": "procédés",
+        "movement": 1,
+        "question": "Dans le mouvement 1 (Perdican fait une fausse déclaration à Rosette, mais le vrai destinataire est Camille.), quels procédés importants faut-il retenir ?",
+        "answer": "Didascalie · Déclaration directe · Répétition · Nostalgie · Promesse · Objet symbolique",
+        "id": "06-c008"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « à haute voix, de manière que Camille l’entende » (l. 25), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Didascalie -> Double énonciation : Rosette écoute, mais Camille est visée",
+        "id": "06-c009"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « Je t’aime, Rosette » (l. 26), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Déclaration directe -> Parole apparemment simple, mais déjà piégée",
+        "id": "06-c010"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « toi seule » (l. 26), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Répétition -> Perdican donne à Rosette une place unique pour blesser Camille",
+        "id": "06-c011"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « nos beaux jours passés » (l. 26-27), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Nostalgie -> Il transforme l’enfance commune en argument amoureux",
+        "id": "06-c012"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « prends ta part de ma vie nouvelle » (l. 28), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Promesse -> Il fait croire à un vrai engagement",
+        "id": "06-c013"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « voilà le gage de notre amour » (l. 29), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Objet symbolique -> La chaîne rend la mise en scène plus crédible",
+        "id": "06-c014"
+      },
+      {
+        "kind": "résumé",
+        "movement": 2,
+        "question": "Que se passe-t-il dans le mouvement 2 ?",
+        "answer": "la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.",
+        "id": "06-c015"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 2,
+        "question": "Quel est le titre du mouvement 2 ?",
+        "answer": "LA BAGUE JETEE DANS L’EAU",
+        "id": "06-c016"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 2,
+        "question": "Quelle est l’idée directrice du mouvement 2 (la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.) ?",
+        "answer": "Perdican transforme la fontaine en scène symbolique.",
+        "id": "06-c017"
+      },
+      {
+        "kind": "procédés",
+        "movement": 2,
+        "question": "Dans le mouvement 2 (la bague jetée dans l’eau met en scène la rupture avec Camille et blesse celle-ci.), quels procédés importants faut-il retenir ?",
+        "answer": "Impératifs · Image du couple · Didascalie centrale · Champ lexical du trouble · Image inquiétante · Réaction de Camille",
+        "id": "06-c018"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Regarde ; Lève-toi » (l. 32), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Impératifs -> Perdican dirige Rosette comme un metteur en scène",
+        "id": "06-c019"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Nous vois-tu tous les deux, dans la source » (l. 33), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Image du couple -> Le reflet fabrique une fausse union amoureuse",
+        "id": "06-c020"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Il jette sa bague dans l’eau » (l. 35), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Didascalie centrale -> Geste symbolique : il attaque le lien avec Camille",
+        "id": "06-c021"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « notre image a disparu ; l’eau qui s’était troublée » (l. 36-37), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Champ lexical du trouble -> L’eau reflète le trouble amoureux provoqué par Perdican",
+        "id": "06-c022"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « de grands cercles noirs » (l. 38), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Image inquiétante -> Le jeu amoureux prend une couleur sombre",
+        "id": "06-c023"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Il a jeté ma bague dans l’eau » (l. 42), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Réaction de Camille -> La manipulation fonctionne : Camille est blessée",
+        "id": "06-c024"
+      },
+      {
+        "kind": "résumé",
+        "movement": 3,
+        "question": "Que se passe-t-il dans le mouvement 3 ?",
+        "answer": "Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.",
+        "id": "06-c025"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 3,
+        "question": "Quel est le titre du mouvement 3 ?",
+        "answer": "UNE DEFINITION LYRIQUE MAIS MANIPULATRICE DE L’AMOUR",
+        "id": "06-c026"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 3,
+        "question": "Quelle est l’idée directrice du mouvement 3 (Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.) ?",
+        "answer": "Perdican parle magnifiquement d’amour, mais son discours reste calculé.",
+        "id": "06-c027"
+      },
+      {
+        "kind": "procédés",
+        "movement": 3,
+        "question": "Dans le mouvement 3 (Perdican tient un discours lyrique sur l’amour, mais Rosette répond avec naïveté.), quels procédés importants faut-il retenir ?",
+        "answer": "Question répétée · Cadre naturel · Serment solennel · Opposition à Camille · Valorisation de Rosette · Réponse naïve",
+        "id": "06-c028"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Sais-tu ce que c’est que l’amour, Rosette ? » (l. 43), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Question répétée -> Perdican se place en professeur de l’amour",
+        "id": "06-c029"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Le vent se tait ; la pluie du matin roule en perles » (l. 44), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Cadre naturel -> L’amour est associé à une nature poétique et vivante",
+        "id": "06-c030"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Par la lumière du ciel, par le soleil que voilà, je t’aime » (l. 45), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Serment solennel -> Perdican donne une grandeur sacrée à une parole fausse",
+        "id": "06-c031"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « Tu ne veux pas te faire religieuse » (l. 47-48), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Opposition à Camille -> Rosette sert de contraste avec Camille",
+        "id": "06-c032"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « jeune et belle dans les bras d’un jeune homme » (l. 4_-49), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Valorisation de Rosette -> Perdican oppose jeunesse vivante et refus religieux",
+        "id": "06-c033"
+      },
+      {
+        "kind": "analyse",
+        "movement": 3,
+        "question": "Pour « je vous aimerai comme je pourrai » (l. 50), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Réponse naïve -> Rosette est sincère et fragile : cela rend la scène cruelle",
+        "id": "06-c034"
+      },
+      {
+        "kind": "conclusion",
+        "question": "Quel est le bilan du texte ?",
+        "answer": "Musset montre que les mots de l’amour peuvent devenir dangereux : Perdican utilise Rosette pour atteindre Camille, et cette manipulation annonce le drame final.",
+        "id": "06-c035"
+      },
+      {
+        "kind": "conclusion",
+        "question": "Quelle ouverture peut-on faire ?",
+        "answer": "On ne badine pas avec l’amour, acte III, scène 8 · Rosette mourra après avoir compris qu’elle a été utilisée dans ce jeu amoureux.",
+        "id": "06-c036"
       }
     ]
   },
