@@ -152,7 +152,7 @@
       {
         "kind": "intro",
         "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre. Pièce publiée en 1834, d’abord pensée pour être lue dans Un spectacle dans un fauteuil.",
+        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
         "id": "05-c001"
       },
       {
@@ -549,7 +549,7 @@
       {
         "kind": "intro",
         "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre. Il mêle comédie, lyrisme amoureux et basculement tragique.",
+        "answer": "Alfred de Musset, XIXe siècle, romantisme, théâtre",
         "id": "06-c001"
       },
       {
@@ -990,7 +990,7 @@
       {
         "kind": "intro",
         "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Arthur Rimbaud, XIXe siècle, poète précoce et révolté. Il écrit les Cahiers de Douai à 16 ans, en 1870.",
+        "answer": "Arthur Rimbaud, XIXe siècle, poète précoce et révolté",
         "id": "01-c001"
       },
       {
@@ -1413,7 +1413,7 @@
       {
         "kind": "intro",
         "question": "Quel est l’auteur de ce texte ?",
-        "answer": "Arthur Rimbaud, XIXe siècle, poète adolescent révolté. Il écrit ce sonnet pendant la guerre franco-prussienne de 1870.",
+        "answer": "Arthur Rimbaud, XIXe siècle, poète adolescent révolté",
         "id": "02-c001"
       },
       {
