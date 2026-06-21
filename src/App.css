@@ -109,6 +109,9 @@ body{background:#080622}
 .learn-tools{justify-content:flex-end}
 .icon-button{width:38px;height:38px;color:white;background:transparent;border:0}
 .icon-button svg{width:28px;height:28px}
+.icon-button:disabled{opacity:.25;cursor:not-allowed}
+.history-back{display:grid;place-items:center;border:1px solid #343b5c;border-radius:50%}
+.learn-brand .history-back svg{padding:0;background:transparent;color:white;box-shadow:none;width:20px;height:20px}
 .learn-progress{height:0;background:transparent}
 .learn-progress span{display:block;height:3px;background:#6572ff}
 .learn-counts{width:min(86vw,560px);margin:44px auto 18px;display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:900}
@@ -170,6 +173,23 @@ body{background:#080622}
 .setting-choice svg{opacity:0;color:#54e7b4}
 .setting-choice.active{border-color:#6572ff;background:#303966}
 .setting-choice.active svg{opacity:1}
+
+.reference-backdrop{position:fixed;inset:0;z-index:60;background:#080622;overflow:auto}
+.reference-panel{width:min(100%,760px);min-height:100%;margin:0 auto;padding:0 18px 50px}
+.reference-header{position:sticky;top:0;z-index:2;min-height:78px;display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;background:#080622f2;border-bottom:1px solid #303759;backdrop-filter:blur(15px)}
+.reference-header>div{min-width:0;text-align:center}
+.reference-header small,.reference-header strong{display:block}
+.reference-header small{color:#8992c5;font-size:10px;text-transform:uppercase;letter-spacing:1px}
+.reference-header strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:3px}
+.reference-back{display:flex;align-items:center;gap:6px;border:0;background:transparent;color:#cdd3ff;font-weight:900;cursor:pointer}
+.reference-menu{display:grid;gap:14px;padding-top:36px}
+.reference-menu button{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px;width:100%;padding:22px;border:1px solid #343b5c;border-radius:22px;background:#171d3f;color:white;text-align:left;cursor:pointer}
+.reference-menu button>svg:first-child{color:#6572ff}
+.reference-menu span strong,.reference-menu span small{display:block}
+.reference-menu span small{color:#a9accf;margin-top:5px}
+.reference-content{padding-top:24px}
+.reference-content .cap-sheet{margin:0}
+.reference-content .transcription{white-space:pre-wrap}
 
 @media(max-width:850px){
   .page{padding:24px 14px 92px}

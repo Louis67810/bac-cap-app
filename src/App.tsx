@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   ArrowLeft, BookOpen, CalendarDays, Check, ChevronRight, Flame, GraduationCap,
-  Home, Layers3, RotateCcw, Search, Settings, Sparkles, Target, X,
+  Home, Info, Layers3, RotateCcw, Search, Settings, Sparkles, Target, X,
 } from 'lucide-react'
 import rawTexts from './data/texts.json'
 import { syncProgress } from './lib/supabase'
@@ -16,7 +16,8 @@ type TextData = {
   movements: Movement[]; cards: Card[];
 }
 type Progress = Record<string, { known: string[]; attempts: number }>
-type Session = { scope: string; queue: string[]; retry: string[]; known: string[]; current: number }
+type SessionDecision = { key: string; known: boolean; wasKnown: boolean; wasProgressKnown: boolean }
+type Session = { scope: string; queue: string[]; retry: string[]; known: string[]; current: number; history?: SessionDecision[] }
 type CompletedSession = { known: number; learning: number; remaining: number; total: number; scope: string; retry: string[]; knownKeys: string[] }
 type CardDirection = 'question' | 'answer'
 type View = { page: 'home' | 'sheets' | 'plan' | 'text' | 'learn'; textId?: string }
@@ -68,7 +69,7 @@ function App() {
     if (resume && session?.scope === scope) return setView({ page: 'learn' })
     const queue = texts.filter(t => textIds.includes(t.id)).flatMap(t => t.cards.map(c => `${t.id}:${c.id}`))
     setCompletedSession(null)
-    setSession({ scope, queue, retry: [], known: [], current: 0 })
+    setSession({ scope, queue, retry: [], known: [], current: 0, history: [] })
     setView({ page: 'learn' })
   }
 
@@ -83,8 +84,8 @@ function App() {
         {view.page === 'sheets' && <SheetsPage texts={texts} filter={filter} family={family} setFilter={setFilter} setFamily={setFamily} onText={id => setView({ page: 'text', textId: id })} onLearn={id => startLearning([id], false)} />}
         {view.page === 'plan' && <PlanPage texts={texts} percent={percent} onLearn={ids => startLearning(ids, false)} />}
         {view.page === 'text' && selected && <TextPage text={selected} percent={percent(selected)} onBack={() => navigate('home')} onLearn={() => startLearning([selected.id], session?.scope === selected.id)} />}
-        {view.page === 'learn' && session && <LearnPage texts={texts} session={session} cardDirection={cardDirection} setCardDirection={setCardDirection} setSession={setSession} setProgress={setProgress} onComplete={setCompletedSession} onClose={() => navigate('home')} />}
-        {view.page === 'learn' && !session && completedSession && <LearnComplete completed={completedSession} onContinue={() => { setSession({ scope: completedSession.scope, queue: completedSession.retry, retry: [], known: completedSession.knownKeys, current: 0 }); setCompletedSession(null) }} onRestart={() => startLearning(completedSession.scope.split(','), false)} onClose={() => navigate('home')} />}
+        {view.page === 'learn' && session && <LearnPage texts={texts} progress={progress} session={session} cardDirection={cardDirection} setCardDirection={setCardDirection} setSession={setSession} setProgress={setProgress} onComplete={setCompletedSession} onClose={() => navigate('home')} />}
+        {view.page === 'learn' && !session && completedSession && <LearnComplete completed={completedSession} onContinue={() => { setSession({ scope: completedSession.scope, queue: completedSession.retry, retry: [], known: completedSession.knownKeys, current: 0, history: [] }); setCompletedSession(null) }} onRestart={() => startLearning(completedSession.scope.split(','), false)} onClose={() => navigate('home')} />}
       </main>
       {view.page !== 'learn' && <BottomNav page={view.page} navigate={navigate} />}
     </div>
@@ -186,15 +187,18 @@ function PlanPage({ texts, percent, onLearn }: { texts: TextData[]; percent: (t:
   </div>
 }
 
-function LearnPage({ texts, session, cardDirection, setCardDirection, setSession, setProgress, onComplete, onClose }: { texts: TextData[]; session: Session; cardDirection: CardDirection; setCardDirection: (direction: CardDirection) => void; setSession: React.Dispatch<React.SetStateAction<Session | null>>; setProgress: React.Dispatch<React.SetStateAction<Progress>>; onComplete: (completed: CompletedSession) => void; onClose: () => void }) {
+function LearnPage({ texts, progress, session, cardDirection, setCardDirection, setSession, setProgress, onComplete, onClose }: { texts: TextData[]; progress: Progress; session: Session; cardDirection: CardDirection; setCardDirection: (direction: CardDirection) => void; setSession: React.Dispatch<React.SetStateAction<Session | null>>; setProgress: React.Dispatch<React.SetStateAction<Progress>>; onComplete: (completed: CompletedSession) => void; onClose: () => void }) {
   const [flipped, setFlipped] = useState(false)
   const [drag, setDrag] = useState(0)
   const [settingsOpen, setSettingsOpen] = useState(false)
+  const [referenceView, setReferenceView] = useState<null | 'menu' | 'analysis' | 'text'>(null)
   const startX = useRef<number | null>(null)
   const cards = useMemo(() => texts.flatMap(t => t.cards.map(c => ({ ...c, textId: t.id, textTitle: t.title }))), [texts])
   const lookup = useMemo(() => new Map(cards.map(c => [`${c.textId}:${c.id}`, c])), [cards])
   const currentKey = session.queue[session.current]
   const card = lookup.get(currentKey)
+  const sourceText = texts.find(text => text.id === card?.textId)
+  const isGlobalMode = session.scope === texts.map(text => text.id).join(',')
   const total = session.queue.length
   const knownKeys = new Set(session.known)
   const knownCount = session.queue.filter(key => knownKeys.has(key)).length
@@ -206,24 +210,56 @@ function LearnPage({ texts, session, cardDirection, setCardDirection, setSession
 
   const decide = (known: boolean) => {
     if (!card) return
-    const nextKnown = known ? [...new Set([...session.known, currentKey])] : session.known
+    const wasKnown = session.known.includes(currentKey)
+    const entry = progress[card.textId] || { known: [], attempts: 0 }
+    const wasProgressKnown = entry.known.includes(card.id)
+    const nextKnown = known ? [...new Set([...session.known, currentKey])] : session.known.filter(key => key !== currentKey)
     setProgress(prev => {
       const entry = prev[card.textId] || { known: [], attempts: 0 }
       return { ...prev, [card.textId]: { attempts: entry.attempts + 1, known: known ? [...new Set([...entry.known, card.id])] : entry.known.filter(id => id !== card.id) } }
     })
-    const retry = known ? session.retry : [...session.retry, currentKey]
+    const retryWithoutCurrent = session.retry.filter(key => key !== currentKey)
+    const retry = known ? retryWithoutCurrent : [...retryWithoutCurrent, currentKey]
+    const history = [...(session.history || []), { key: currentKey, known, wasKnown, wasProgressKnown }]
     if (session.current + 1 >= total) {
       onComplete({ known: total - retry.length, learning: retry.length, remaining: retry.length, total, scope: session.scope, retry, knownKeys: nextKnown })
       setSession(null)
-    } else setSession({ ...session, retry, current: session.current + 1, known: nextKnown })
+    } else setSession({ ...session, retry, current: session.current + 1, known: nextKnown, history })
     setFlipped(false); setDrag(0)
+  }
+
+  const goBack = () => {
+    const history = session.history || []
+    const previous = history.at(-1)
+    if (session.current === 0 || !previous) return
+    const previousCard = lookup.get(previous.key)
+    if (!previousCard) return
+    const restoredKnown = previous.wasKnown
+      ? [...new Set([...session.known, previous.key])]
+      : session.known.filter(key => key !== previous.key)
+    setProgress(prev => {
+      const entry = prev[previousCard.textId] || { known: [], attempts: 0 }
+      const known = previous.wasProgressKnown
+        ? [...new Set([...entry.known, previousCard.id])]
+        : entry.known.filter(id => id !== previousCard.id)
+      return { ...prev, [previousCard.textId]: { known, attempts: Math.max(0, entry.attempts - 1) } }
+    })
+    setSession({
+      ...session,
+      current: session.current - 1,
+      known: restoredKnown,
+      retry: session.retry.filter(key => key !== previous.key),
+      history: history.slice(0, -1),
+    })
+    setFlipped(false)
+    setDrag(0)
   }
   if (!card) return <div className="learn-complete"><Sparkles /><h1>Session terminée</h1><p>Toutes les cartes ont été validées.</p><button className="primary" onClick={onClose}>Retour à l'accueil</button></div>
   return <div className="learn-page">
     <header className="learn-header">
-      <div className="learn-brand"><Layers3 size={18} /><ChevronRight size={22} /></div>
+      <div className="learn-brand"><button className="icon-button history-back" onClick={goBack} disabled={session.current === 0 || !(session.history || []).length} aria-label="Revenir à la carte précédente"><ArrowLeft /></button><Layers3 size={18} /></div>
       <strong>{progressLabel}</strong>
-      <div className="learn-tools"><button className="icon-button" onClick={() => setSettingsOpen(true)} aria-label="Paramètres"><Settings /></button><button className="icon-button" onClick={onClose} aria-label="Fermer"><X /></button></div>
+      <div className="learn-tools">{isGlobalMode && <button className="icon-button" onClick={() => setReferenceView('menu')} aria-label="Consulter le texte ou l'analyse"><Info /></button>}<button className="icon-button" onClick={() => setSettingsOpen(true)} aria-label="Paramètres"><Settings /></button><button className="icon-button" onClick={onClose} aria-label="Fermer"><X /></button></div>
     </header>
     <div className="learn-progress"><span style={{ width: `${((session.current + 1) / total) * 100}%` }} /></div>
     <div className="learn-counts">
@@ -260,6 +296,21 @@ function LearnPage({ texts, session, cardDirection, setCardDirection, setSession
         <p>Choisis le sens des cartes. Par défaut, la question est toujours affichée en premier.</p>
         <button className={cardDirection === 'question' ? 'setting-choice active' : 'setting-choice'} onClick={() => setCardDirection('question')}><Check size={18} /> Question d'abord</button>
         <button className={cardDirection === 'answer' ? 'setting-choice active' : 'setting-choice'} onClick={() => setCardDirection('answer')}><Check size={18} /> Réponse d'abord</button>
+      </section>
+    </div>}
+    {referenceView && sourceText && <div className="reference-backdrop">
+      <section className="reference-panel">
+        <div className="reference-header">
+          <button className="reference-back" onClick={() => referenceView === 'menu' ? setReferenceView(null) : setReferenceView('menu')}><ArrowLeft size={18} /> Retour</button>
+          <div><small>Texte de la carte</small><strong>{sourceText.title}</strong></div>
+          <button className="icon-button" onClick={() => setReferenceView(null)} aria-label="Fermer"><X /></button>
+        </div>
+        {referenceView === 'menu' && <div className="reference-menu">
+          <button onClick={() => setReferenceView('analysis')}><BookOpen /><span><strong>Voir l'analyse linéaire</strong><small>Consulter la fiche CAP complète</small></span><ChevronRight /></button>
+          <button onClick={() => setReferenceView('text')}><Layers3 /><span><strong>Voir le texte</strong><small>Lire la transcription du passage</small></span><ChevronRight /></button>
+        </div>}
+        {referenceView === 'analysis' && <div className="reference-content"><CapSheet text={sourceText} /></div>}
+        {referenceView === 'text' && <div className="reference-content"><pre className="transcription">{sourceText.transcription}</pre></div>}
       </section>
     </div>}
   </div>
