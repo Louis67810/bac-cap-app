@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   ArrowLeft, BookOpen, CalendarDays, Check, ChevronRight, Flame, GraduationCap,
-  Home, Info, Layers3, RotateCcw, Search, Settings, Sparkles, Target, X,
+  Home, Info, Layers3, PenLine, RotateCcw, Search, Settings, Sparkles, Target, UserRound, X,
 } from 'lucide-react'
 import rawTexts from './data/texts.json'
 import { syncProgress } from './lib/supabase'
+import { AuthorQuizPage, TextAnnotationMode } from './StudyModes'
 import './App.css'
 
 type Analysis = { procedure: string; citation: string; line: string; interpretation: string }
@@ -20,7 +21,7 @@ type SessionDecision = { key: string; known: boolean; wasKnown: boolean; wasProg
 type Session = { scope: string; queue: string[]; retry: string[]; known: string[]; current: number; history?: SessionDecision[] }
 type CompletedSession = { known: number; learning: number; remaining: number; total: number; scope: string; retry: string[]; knownKeys: string[] }
 type CardDirection = 'question' | 'answer'
-type View = { page: 'home' | 'sheets' | 'plan' | 'text' | 'learn'; textId?: string }
+type View = { page: 'home' | 'sheets' | 'plan' | 'text' | 'learn' | 'authors' | 'annotate'; textId?: string }
 
 const texts = rawTexts as TextData[]
 const STORAGE_KEY = 'cap-progress-v2'
@@ -75,19 +76,22 @@ function App() {
 
   const navigate = (page: View['page']) => setView({ page })
   const selected = texts.find(t => t.id === view.textId)
+  const immersive = view.page === 'learn' || view.page === 'authors' || view.page === 'annotate'
 
   return (
     <div className="app-shell">
-      {view.page !== 'learn' && <Header onLearnAll={() => startLearning(texts.map(t => t.id), session?.scope === texts.map(t => t.id).join(','))} />}
+      {!immersive && <Header onLearnAll={() => startLearning(texts.map(t => t.id), session?.scope === texts.map(t => t.id).join(','))} />}
       <main>
-        {view.page === 'home' && <HomePage texts={texts} percent={percent} progress={progress} onText={id => setView({ page: 'text', textId: id })} onLearn={id => startLearning([id], session?.scope === id)} onLearnAll={() => startLearning(texts.map(t => t.id), false)} />}
+        {view.page === 'home' && <HomePage texts={texts} percent={percent} progress={progress} onText={id => setView({ page: 'text', textId: id })} onLearn={id => startLearning([id], session?.scope === id)} onLearnAll={() => startLearning(texts.map(t => t.id), false)} onAuthors={() => navigate('authors')} onAnnotate={() => navigate('annotate')} />}
         {view.page === 'sheets' && <SheetsPage texts={texts} filter={filter} family={family} setFilter={setFilter} setFamily={setFamily} onText={id => setView({ page: 'text', textId: id })} onLearn={id => startLearning([id], false)} />}
         {view.page === 'plan' && <PlanPage texts={texts} percent={percent} onLearn={ids => startLearning(ids, false)} />}
         {view.page === 'text' && selected && <TextPage text={selected} percent={percent(selected)} onBack={() => navigate('home')} onLearn={() => startLearning([selected.id], session?.scope === selected.id)} />}
         {view.page === 'learn' && session && <LearnPage texts={texts} progress={progress} session={session} cardDirection={cardDirection} setCardDirection={setCardDirection} setSession={setSession} setProgress={setProgress} onComplete={setCompletedSession} onClose={() => navigate('home')} />}
         {view.page === 'learn' && !session && completedSession && <LearnComplete completed={completedSession} onContinue={() => { setSession({ scope: completedSession.scope, queue: completedSession.retry, retry: [], known: completedSession.knownKeys, current: 0, history: [] }); setCompletedSession(null) }} onRestart={() => startLearning(completedSession.scope.split(','), false)} onClose={() => navigate('home')} />}
+        {view.page === 'authors' && <AuthorQuizPage onClose={() => navigate('home')} />}
+        {view.page === 'annotate' && <TextAnnotationMode onClose={() => navigate('home')} />}
       </main>
-      {view.page !== 'learn' && <BottomNav page={view.page} navigate={navigate} />}
+      {!immersive && <BottomNav page={view.page} navigate={navigate} />}
     </div>
   )
 }
@@ -110,7 +114,7 @@ function NavButton({ active, icon, label, onClick }: { active: boolean; icon: Re
   return <button className={active ? 'active' : ''} onClick={onClick}>{icon}<span>{label}</span></button>
 }
 
-function HomePage({ texts, percent, progress, onText, onLearn, onLearnAll }: { texts: TextData[]; percent: (t: TextData) => number; progress: Progress; onText: (id: string) => void; onLearn: (id: string) => void; onLearnAll: () => void }) {
+function HomePage({ texts, percent, progress, onText, onLearn, onLearnAll, onAuthors, onAnnotate }: { texts: TextData[]; percent: (t: TextData) => number; progress: Progress; onText: (id: string) => void; onLearn: (id: string) => void; onLearnAll: () => void; onAuthors: () => void; onAnnotate: () => void }) {
   const mastered = texts.filter(t => percent(t) === 100).length
   const started = texts.filter(t => (progress[t.id]?.attempts || 0) > 0).length
   return <div className="page">
@@ -122,6 +126,11 @@ function HomePage({ texts, percent, progress, onText, onLearn, onLearnAll }: { t
       <Stat label="Textes validés" value={`${mastered}/16`} icon={<Check />} />
       <Stat label="En cours" value={`${started - mastered}`} icon={<Target />} />
       <Stat label="Cartes disponibles" value={`${texts.reduce((n, t) => n + t.cards.length, 0)}`} icon={<Layers3 />} />
+    </section>
+    <SectionTitle title="Modes ciblés" subtitle="Travaille les auteurs ou entraîne-toi directement sur les textes." />
+    <section className="mode-grid">
+      <button className="mode-card" onClick={onAuthors}><span><UserRound /></span><div><small>QUIZ CIBLÉ</small><h3>Présentations des auteurs</h3><p>Une seule carte par auteur, sans doublon.</p></div><ChevronRight /></button>
+      <button className="mode-card" onClick={onAnnotate}><span><PenLine /></span><div><small>LECTURE ACTIVE</small><h3>Textes à annoter</h3><p>Photo, annotations et procédés interactifs.</p></div><ChevronRight /></button>
     </section>
     <SectionTitle title="Tes textes" subtitle="Valide toutes les cartes pour maîtriser un texte." />
     <div className="text-grid">{texts.map(t => <TextCard key={t.id} text={t} percent={percent(t)} onText={onText} onLearn={onLearn} />)}</div>
