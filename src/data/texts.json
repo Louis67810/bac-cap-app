@@ -700,7 +700,7 @@
         "kind": "procédés",
         "movement": 1,
         "question": "Dans le mouvement 1 (les deux quatrains montrent l’horreur de la guerre et le massacre des soldats.), quels procédés importants faut-il retenir ?",
-        "answer": "Subordonnant répété · Métaphore péjorative · Opposition de couleurs · Indifférence des puissants · Hyperbole et réduction · Apostrophe pathétique",
+        "answer": "Subordonnant répété · Métaphore péjorative · Opposition de couleurs · Indifférence des puissants · Hyperbole et réduction · Apostrophe pathétique · Champ lexical de la violence · Personnification de la guerre · Anaphore et contraste avec la nature",
         "id": "02-c008"
       },
       {
@@ -770,7 +770,7 @@
         "kind": "procédés",
         "movement": 2,
         "question": "Dans le mouvement 2 (les deux tercets opposent à cette horreur un Dieu riche, indifférent, puis des mères pauvres et en deuil.), quels procédés importants faut-il retenir ?",
-        "answer": "Tiret de rupture · Verbe choquant · Énumération de richesses · Image de confort · Contraste social · Détail pathétique",
+        "answer": "Tiret de rupture · Verbe choquant · Énumération de richesses · Image de confort · Contraste social · Détail pathétique · Personnification satirique de Dieu · Champ lexical religieux · Antithèse entre richesse et pauvreté",
         "id": "02-c018"
       },
       {
@@ -826,6 +826,48 @@
         "question": "Quelle ouverture peut-on faire ?",
         "answer": "Le Dormeur du val, Arthur Rimbaud · Autre poème de guerre qui dénonce la mort des jeunes soldats par un contraste entre nature belle et violence humaine.",
         "id": "02-c026"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « mitraille ; feu ; broie ; tas fumant » (l. 1-6), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Champ lexical de la violence -> La guerre est présentée comme une force brutale qui détruit entièrement les hommes",
+        "id": "02-c027"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « une folie épouvantable, broie » (l. 5), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Personnification de la guerre -> La guerre devient une créature monstrueuse et incontrôlable qui écrase les soldats",
+        "id": "02-c028"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « dans l’été, dans l’herbe, dans ta joie » (l. 7-8), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Anaphore et contraste avec la nature -> La répétition insiste sur la beauté de la nature, rendue scandaleuse par la présence des morts",
+        "id": "02-c029"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « rit ; s’endort ; se réveille » (l. 9-12), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Personnification satirique de Dieu -> Dieu est représenté comme un homme égoïste, insensible aux morts et seulement intéressé par les dons",
+        "id": "02-c030"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « Dieu ; encens ; calices ; hosannahs » (l. 9-11), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Champ lexical religieux -> L’accumulation des références sacrées est utilisée ironiquement pour dénoncer l’hypocrisie de la religion",
+        "id": "02-c031"
+      },
+      {
+        "kind": "analyse",
+        "movement": 2,
+        "question": "Pour « grands calices d’or / un gros sou » (l. 10 et 14), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Antithèse entre richesse et pauvreté -> Le luxe de l’Église s’oppose à la misère des mères, ce qui rend son comportement encore plus révoltant",
+        "id": "02-c032"
       }
     ]
   },
