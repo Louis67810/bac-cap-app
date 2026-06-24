@@ -331,8 +331,14 @@ function findCitation(transcription: string, citation: string, line: string): { 
 
 function locateAnalyses(text: TextData): Match[] {
   const located = text.movements.flatMap(movement => movement.analyses.flatMap(analysis => {
-    const range = findCitation(text.transcription, analysis.citation, analysis.line)
-    return range ? [{ ...range, analyses: [analysis] }] : []
+    const fragments = analysis.citation.split(/[;/]/u).map(fragment => fragment.trim()).filter(Boolean)
+    const ranges = fragments.length > 1
+      ? fragments.flatMap(fragment => {
+          const range = findCitation(text.transcription, fragment, analysis.line)
+          return range ? [range] : []
+        })
+      : [findCitation(text.transcription, analysis.citation, analysis.line)].filter((range): range is { start: number; end: number } => Boolean(range))
+    return ranges.map(range => ({ ...range, analyses: [analysis] }))
   })).sort((left, right) => left.start - right.start || left.end - right.end)
 
   return located.reduce<Match[]>((merged, match) => {
@@ -354,5 +360,6 @@ function HighlightedText({ text, matches, onSelect }: { text: TextData; matches:
   })
   content.push(text.transcription.slice(cursor))
   const total = text.movements.reduce((sum, movement) => sum + movement.analyses.length, 0)
-  return <section className="enriched-text"><div className="enriched-legend"><span><i /> Citations repérées dans les cartes</span><b>{matches.reduce((sum, match) => sum + match.analyses.length, 0)} / {total}</b></div><div className="enriched-transcription">{content}</div></section>
+  const locatedAnalyses = new Set(matches.flatMap(match => match.analyses)).size
+  return <section className="enriched-text"><div className="enriched-legend"><span><i /> Citations repérées dans les cartes</span><b>{locatedAnalyses} / {total}</b></div><div className="enriched-transcription">{content}</div></section>
 }

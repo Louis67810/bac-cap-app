@@ -566,6 +566,24 @@
             "citation": "Pauvres morts !",
             "line": "7",
             "interpretation": "La voix du poète exprime compassion et révolte"
+          },
+          {
+            "procedure": "Champ lexical de la violence",
+            "citation": "mitraille ; feu ; broie ; tas fumant",
+            "line": "1-6",
+            "interpretation": "La guerre est présentée comme une force brutale qui détruit entièrement les hommes"
+          },
+          {
+            "procedure": "Personnification de la guerre",
+            "citation": "une folie épouvantable, broie",
+            "line": "5",
+            "interpretation": "La guerre devient une créature monstrueuse et incontrôlable qui écrase les soldats"
+          },
+          {
+            "procedure": "Anaphore et contraste avec la nature",
+            "citation": "dans l’été, dans l’herbe, dans ta joie",
+            "line": "7-8",
+            "interpretation": "La répétition insiste sur la beauté de la nature, rendue scandaleuse par la présence des morts"
           }
         ]
       },
@@ -610,6 +628,24 @@
             "citation": "un gros sou lié dans leur mouchoir",
             "line": "14",
             "interpretation": "Les pauvres donnent encore à une institution riche"
+          },
+          {
+            "procedure": "Personnification satirique de Dieu",
+            "citation": "rit ; s’endort ; se réveille",
+            "line": "9-12",
+            "interpretation": "Dieu est représenté comme un homme égoïste, insensible aux morts et seulement intéressé par les dons"
+          },
+          {
+            "procedure": "Champ lexical religieux",
+            "citation": "Dieu ; encens ; calices ; hosannahs",
+            "line": "9-11",
+            "interpretation": "L’accumulation des références sacrées est utilisée ironiquement pour dénoncer l’hypocrisie de la religion"
+          },
+          {
+            "procedure": "Antithèse entre richesse et pauvreté",
+            "citation": "grands calices d’or / un gros sou",
+            "line": "10 et 14",
+            "interpretation": "Le luxe de l’Église s’oppose à la misère des mères, ce qui rend son comportement encore plus révoltant"
           }
         ]
       }
