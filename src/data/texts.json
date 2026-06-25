@@ -5243,50 +5243,6 @@
     "movements": [
       {
         "number": 1,
-        "title": "UNE RELATION INTÉRESSÉE",
-        "summary": "M. de G... M... achète l’attention de Manon avec des cadeaux et de l’argent.",
-        "idea": "La scène du souper montre une séduction fondée sur l’argent et la manipulation.",
-        "analyses": [
-          {
-            "procedure": "Cadre mondain",
-            "citation": "L’heure du souper étant venue",
-            "line": "1661",
-            "interpretation": "la scène ressemble à une mise en scène sociale"
-          },
-          {
-            "procedure": "Désignation dévalorisante",
-            "citation": "le vieillard",
-            "line": "1663",
-            "interpretation": "M. de G... M... est déjà rendu ridicule"
-          },
-          {
-            "procedure": "Énumération de cadeaux",
-            "citation": "un collier, des bracelets et des pendants de perles",
-            "line": "?",
-            "interpretation": "l’argent domine la relation"
-          },
-          {
-            "procedure": "Précision chiffrée",
-            "citation": "deux mille quatre cents livres",
-            "line": "1665-1666",
-            "interpretation": "importance matérielle de la rencontre"
-          },
-          {
-            "procedure": "Verbe comique",
-            "citation": "Il assaisonna son présent",
-            "line": "1666-1667",
-            "interpretation": "les compliments paraissent artificiels"
-          },
-          {
-            "procedure": "Logique intéressée",
-            "citation": "c’était autant de droits qu’elle acquérait sur l’argent",
-            "line": "1669",
-            "interpretation": "les baisers deviennent une stratégie"
-          }
-        ]
-      },
-      {
-        "number": 2,
         "title": "DES GRIEUX JOUE LE NAÏF",
         "summary": "Des Grieux joue le jeune provincial naïf pour tromper le vieillard.",
         "idea": "Le comique vient du rôle joué par Des Grieux et de l’aveuglement du vieillard.",
@@ -5310,27 +5266,33 @@
             "interpretation": "Lescaut construit un personnage de provincial naïf"
           },
           {
-            "procedure": "Ironie morale",
+            "procedure": "Ironie narrative",
+            "citation": "parut prendre plaisir à me voir",
+            "line": "1680",
+            "interpretation": "le vieillard apprécie Des Grieux sans comprendre qu’il se trouve face à l’amant de Manon ; le lecteur perçoit toute l’ironie de la situation."
+          },
+          {
+            "procedure": "Développement de l’ironie morale",
             "citation": "un si bon modèle",
             "line": "1679",
-            "interpretation": "le modèle est en réalité un vieillard ridicule"
+            "interpretation": "le vieillard est présenté comme un exemple alors qu’il cherche à séduire Manon grâce à son argent ; le compliment est donc profondément ironique."
           },
           {
-            "procedure": "Mensonge religieux",
+            "procedure": "Développement du mensonge religieux",
             "citation": "je ne parlais que de me faire prêtre",
             "line": "1683-1684",
-            "interpretation": "décalage comique avec l’amant réel de Manon"
+            "interpretation": "Des Grieux invente un personnage innocent et pieux, totalement opposé à sa véritable identité d’amant passionné."
           },
           {
-            "procedure": "Double sens",
+            "procedure": "Développement du double sens",
             "citation": "nos deux chairs se touchent de bien proche",
             "line": "1687",
-            "interpretation": "réplique naïve en apparence, ambiguë pour le lecteur"
+            "interpretation": "la remarque paraît naïve pour le vieillard, mais le lecteur comprend l’allusion au lien amoureux et charnel entre Des Grieux et Manon."
           }
         ]
       },
       {
-        "number": 3,
+        "number": 2,
         "title": "TRIOMPHE DE LA TROMPERIE ET JUGEMENT MORAL",
         "summary": "la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.",
         "idea": "La comédie réussit, mais le narrateur garde conscience de sa faute.",
@@ -5340,12 +5302,6 @@
             "citation": "Toute notre conversation fut à peu près du même goût",
             "line": "1693-1694",
             "interpretation": "la scène repose sur une répétition de plaisanteries"
-          },
-          {
-            "procedure": "Rire dangereux",
-            "citation": "gâter tout par ses éclats de rire",
-            "line": "1695",
-            "interpretation": "Manon menace de révéler la tromperie"
           },
           {
             "procedure": "Ironie dramatique",
@@ -5360,16 +5316,22 @@
             "interpretation": "l’orgueil rend le vieillard ridicule"
           },
           {
-            "procedure": "Aveuglement comique",
-            "citation": "le premier à le trouver fort risible",
-            "line": "1700",
-            "interpretation": "il rit de lui-même sans le savoir"
+            "procedure": "Verbe « gâter »",
+            "citation": "gâter tout par ses éclats de rire",
+            "line": "1695",
+            "interpretation": "la tromperie est considérée comme un spectacle ou un jeu qu’il ne faudrait pas interrompre, ce qui renforce son caractère théâtral."
           },
           {
-            "procedure": "Jugement explicite",
+            "procedure": "Comique de situation",
+            "citation": "il fut le premier à le trouver fort risible",
+            "line": "1700",
+            "interpretation": "le vieillard rit de sa propre mésaventure, ce qui constitue le sommet de son humiliation."
+          },
+          {
+            "procedure": "Changement de ton",
             "citation": "une véritable friponnerie",
             "line": "1708",
-            "interpretation": "Des Grieux reconnaît la faute"
+            "interpretation": "après le récit comique, le narrateur adopte un ton beaucoup plus sérieux."
           }
         ]
       }
@@ -5403,223 +5365,160 @@
         "kind": "résumé",
         "movement": 1,
         "question": "Que se passe-t-il dans le mouvement 1 ?",
-        "answer": "M. de G... M... achète l’attention de Manon avec des cadeaux et de l’argent.",
+        "answer": "Des Grieux joue le jeune provincial naïf pour tromper le vieillard.",
         "id": "14-c005"
       },
       {
         "kind": "mouvement",
         "movement": 1,
         "question": "Quel est le titre du mouvement 1 ?",
-        "answer": "UNE RELATION INTÉRESSÉE",
+        "answer": "DES GRIEUX JOUE LE NAÏF",
         "id": "14-c006"
       },
       {
         "kind": "mouvement",
         "movement": 1,
-        "question": "Quelle est l’idée directrice du mouvement 1 (M. de G... M... achète l’attention de Manon avec des cadeaux et de l’argent.) ?",
-        "answer": "La scène du souper montre une séduction fondée sur l’argent et la manipulation.",
+        "question": "Quelle est l’idée directrice du mouvement 1 (Des Grieux joue le jeune provincial naïf pour tromper le vieillard.) ?",
+        "answer": "Le comique vient du rôle joué par Des Grieux et de l’aveuglement du vieillard.",
         "id": "14-c007"
       },
       {
         "kind": "procédés",
         "movement": 1,
-        "question": "Dans le mouvement 1 (M. de G... M... achète l’attention de Manon avec des cadeaux et de l’argent.), quels procédés importants faut-il retenir ?",
-        "answer": "Cadre mondain · Désignation dévalorisante · Énumération de cadeaux · Précision chiffrée · Verbe comique · Logique intéressée",
+        "question": "Dans le mouvement 1 (Des Grieux joue le jeune provincial naïf pour tromper le vieillard.), quels procédés importants faut-il retenir ?",
+        "answer": "Geste infantilisant · Exagération comique · Portrait fabriqué · Ironie narrative · Développement de l’ironie morale · Développement du mensonge religieux · Développement du double sens",
         "id": "14-c008"
       },
       {
         "kind": "analyse",
         "movement": 1,
-        "question": "Pour « L’heure du souper étant venue » (l. 1661), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Cadre mondain -> la scène ressemble à une mise en scène sociale",
+        "question": "Pour « Il vint me prendre par la main » (l. 1672), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Geste infantilisant -> Des Grieux est mis en scène comme un enfant",
         "id": "14-c009"
       },
       {
         "kind": "analyse",
         "movement": 1,
-        "question": "Pour « le vieillard » (l. 1663), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Désignation dévalorisante -> M. de G... M... est déjà rendu ridicule",
+        "question": "Pour « deux ou trois des plus profondes » (l. 1674), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Exagération comique -> il joue trop bien la révérence naïve",
         "id": "14-c010"
       },
       {
         "kind": "analyse",
         "movement": 1,
-        "question": "Pour « un collier, des bracelets et des pendants de perles » (l. ?), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Énumération de cadeaux -> l’argent domine la relation",
+        "question": "Pour « un enfant fort neuf » (l. 1675), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Portrait fabriqué -> Lescaut construit un personnage de provincial naïf",
         "id": "14-c011"
       },
       {
         "kind": "analyse",
         "movement": 1,
-        "question": "Pour « deux mille quatre cents livres » (l. 1665-1666), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Précision chiffrée -> importance matérielle de la rencontre",
+        "question": "Pour « parut prendre plaisir à me voir » (l. 1680), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Ironie narrative -> le vieillard apprécie Des Grieux sans comprendre qu’il se trouve face à l’amant de Manon ; le lecteur perçoit toute l’ironie de la situation.",
         "id": "14-c012"
       },
       {
         "kind": "analyse",
         "movement": 1,
-        "question": "Pour « Il assaisonna son présent » (l. 1666-1667), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Verbe comique -> les compliments paraissent artificiels",
+        "question": "Pour « un si bon modèle » (l. 1679), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Développement de l’ironie morale -> le vieillard est présenté comme un exemple alors qu’il cherche à séduire Manon grâce à son argent ; le compliment est donc profondément ironique.",
         "id": "14-c013"
       },
       {
         "kind": "analyse",
         "movement": 1,
-        "question": "Pour « c’était autant de droits qu’elle acquérait sur l’argent » (l. 1669), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Logique intéressée -> les baisers deviennent une stratégie",
+        "question": "Pour « je ne parlais que de me faire prêtre » (l. 1683-1684), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Développement du mensonge religieux -> Des Grieux invente un personnage innocent et pieux, totalement opposé à sa véritable identité d’amant passionné.",
         "id": "14-c014"
+      },
+      {
+        "kind": "analyse",
+        "movement": 1,
+        "question": "Pour « nos deux chairs se touchent de bien proche » (l. 1687), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Développement du double sens -> la remarque paraît naïve pour le vieillard, mais le lecteur comprend l’allusion au lien amoureux et charnel entre Des Grieux et Manon.",
+        "id": "14-c015"
       },
       {
         "kind": "résumé",
         "movement": 2,
         "question": "Que se passe-t-il dans le mouvement 2 ?",
-        "answer": "Des Grieux joue le jeune provincial naïf pour tromper le vieillard.",
-        "id": "14-c015"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 2,
-        "question": "Quel est le titre du mouvement 2 ?",
-        "answer": "DES GRIEUX JOUE LE NAÏF",
+        "answer": "la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.",
         "id": "14-c016"
       },
       {
         "kind": "mouvement",
         "movement": 2,
-        "question": "Quelle est l’idée directrice du mouvement 2 (Des Grieux joue le jeune provincial naïf pour tromper le vieillard.) ?",
-        "answer": "Le comique vient du rôle joué par Des Grieux et de l’aveuglement du vieillard.",
+        "question": "Quel est le titre du mouvement 2 ?",
+        "answer": "TRIOMPHE DE LA TROMPERIE ET JUGEMENT MORAL",
         "id": "14-c017"
+      },
+      {
+        "kind": "mouvement",
+        "movement": 2,
+        "question": "Quelle est l’idée directrice du mouvement 2 (la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.) ?",
+        "answer": "La comédie réussit, mais le narrateur garde conscience de sa faute.",
+        "id": "14-c018"
       },
       {
         "kind": "procédés",
         "movement": 2,
-        "question": "Dans le mouvement 2 (Des Grieux joue le jeune provincial naïf pour tromper le vieillard.), quels procédés importants faut-il retenir ?",
-        "answer": "Geste infantilisant · Exagération comique · Portrait fabriqué · Ironie morale · Mensonge religieux · Double sens",
-        "id": "14-c018"
-      },
-      {
-        "kind": "analyse",
-        "movement": 2,
-        "question": "Pour « Il vint me prendre par la main » (l. 1672), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Geste infantilisant -> Des Grieux est mis en scène comme un enfant",
+        "question": "Dans le mouvement 2 (la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.), quels procédés importants faut-il retenir ?",
+        "answer": "Résumé comique · Ironie dramatique · Aveuglement moral · Verbe « gâter » · Comique de situation · Changement de ton",
         "id": "14-c019"
       },
       {
         "kind": "analyse",
         "movement": 2,
-        "question": "Pour « deux ou trois des plus profondes » (l. 1674), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Exagération comique -> il joue trop bien la révérence naïve",
+        "question": "Pour « Toute notre conversation fut à peu près du même goût » (l. 1693-1694), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Résumé comique -> la scène repose sur une répétition de plaisanteries",
         "id": "14-c020"
       },
       {
         "kind": "analyse",
         "movement": 2,
-        "question": "Pour « un enfant fort neuf » (l. 1675), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Portrait fabriqué -> Lescaut construit un personnage de provincial naïf",
+        "question": "Pour « sa propre histoire » (l. 1696), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Ironie dramatique -> Des Grieux raconte au vieillard ce qui lui arrive sans qu’il comprenne",
         "id": "14-c021"
       },
       {
         "kind": "analyse",
         "movement": 2,
-        "question": "Pour « un si bon modèle » (l. 1679), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Ironie morale -> le modèle est en réalité un vieillard ridicule",
+        "question": "Pour « l’amour-propre l’empêcha de s’y reconnaître » (l. 1699), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Aveuglement moral -> l’orgueil rend le vieillard ridicule",
         "id": "14-c022"
       },
       {
         "kind": "analyse",
         "movement": 2,
-        "question": "Pour « je ne parlais que de me faire prêtre » (l. 1683-1684), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Mensonge religieux -> décalage comique avec l’amant réel de Manon",
+        "question": "Pour « gâter tout par ses éclats de rire » (l. 1695), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Verbe « gâter » -> la tromperie est considérée comme un spectacle ou un jeu qu’il ne faudrait pas interrompre, ce qui renforce son caractère théâtral.",
         "id": "14-c023"
       },
       {
         "kind": "analyse",
         "movement": 2,
-        "question": "Pour « nos deux chairs se touchent de bien proche » (l. 1687), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Double sens -> réplique naïve en apparence, ambiguë pour le lecteur",
+        "question": "Pour « il fut le premier à le trouver fort risible » (l. 1700), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
+        "answer": "Comique de situation -> le vieillard rit de sa propre mésaventure, ce qui constitue le sommet de son humiliation.",
         "id": "14-c024"
       },
       {
-        "kind": "résumé",
-        "movement": 3,
-        "question": "Que se passe-t-il dans le mouvement 3 ?",
-        "answer": "la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.",
-        "id": "14-c025"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 3,
-        "question": "Quel est le titre du mouvement 3 ?",
-        "answer": "TRIOMPHE DE LA TROMPERIE ET JUGEMENT MORAL",
-        "id": "14-c026"
-      },
-      {
-        "kind": "mouvement",
-        "movement": 3,
-        "question": "Quelle est l’idée directrice du mouvement 3 (la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.) ?",
-        "answer": "La comédie réussit, mais le narrateur garde conscience de sa faute.",
-        "id": "14-c027"
-      },
-      {
-        "kind": "procédés",
-        "movement": 3,
-        "question": "Dans le mouvement 3 (la ruse réussit, mais Des Grieux reconnaît ensuite la faute morale.), quels procédés importants faut-il retenir ?",
-        "answer": "Résumé comique · Rire dangereux · Ironie dramatique · Aveuglement moral · Aveuglement comique · Jugement explicite",
-        "id": "14-c028"
-      },
-      {
         "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « Toute notre conversation fut à peu près du même goût » (l. 1693-1694), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Résumé comique -> la scène repose sur une répétition de plaisanteries",
-        "id": "14-c029"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « gâter tout par ses éclats de rire » (l. 1695), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Rire dangereux -> Manon menace de révéler la tromperie",
-        "id": "14-c030"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « sa propre histoire » (l. 1696), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Ironie dramatique -> Des Grieux raconte au vieillard ce qui lui arrive sans qu’il comprenne",
-        "id": "14-c031"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « l’amour-propre l’empêcha de s’y reconnaître » (l. 1699), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Aveuglement moral -> l’orgueil rend le vieillard ridicule",
-        "id": "14-c032"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
-        "question": "Pour « le premier à le trouver fort risible » (l. 1700), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Aveuglement comique -> il rit de lui-même sans le savoir",
-        "id": "14-c033"
-      },
-      {
-        "kind": "analyse",
-        "movement": 3,
+        "movement": 2,
         "question": "Pour « une véritable friponnerie » (l. 1708), quel procédé faut-il repérer et que faut-il dire à l'oral ?",
-        "answer": "Jugement explicite -> Des Grieux reconnaît la faute",
-        "id": "14-c034"
+        "answer": "Changement de ton -> après le récit comique, le narrateur adopte un ton beaucoup plus sérieux.",
+        "id": "14-c025"
       },
       {
         "kind": "conclusion",
         "question": "Quel est le bilan du texte ?",
         "answer": "Prévost crée une scène comique grâce au théâtre du mensonge, au rôle de naïf joué par Des Grieux et à l’aveuglement du vieillard. Mais le narrateur rappelle que cette ruse reste une faute morale.",
-        "id": "14-c035"
+        "id": "14-c026"
       },
       {
         "kind": "conclusion",
         "question": "Quelle ouverture peut-on faire ?",
         "answer": "D’autres passages de Manon Lescaut montrent aussi comment l’amour pousse Des Grieux à franchir les limites de la morale.",
-        "id": "14-c036"
+        "id": "14-c027"
       }
     ]
   },
